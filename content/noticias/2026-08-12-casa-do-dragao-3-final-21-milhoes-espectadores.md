@@ -9,7 +9,7 @@ platforms: ["HBO Max"]
 titles:
   - name: "A Casa do Dragão"
     type: serie
-    year: 2026
+    year: 2022
 image:
   src: "https://i.ytimg.com/vi/R3_XMwPjAnY/maxresdefault.jpg"
   alt: "Cena do trailer final da terceira temporada de A Casa do Dragão"

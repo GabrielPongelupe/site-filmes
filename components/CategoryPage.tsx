@@ -1,58 +1,62 @@
 import Link from 'next/link';
 import { Ad } from '@/components/Ad';
-import { Pills } from '@/components/Pills';
-import { news, routes, subcats } from '@/lib/data';
+import { CategoryFeed } from '@/components/CategoryFeed';
+import { Media } from '@/components/Media';
+import { ListItem } from '@/components/NewsCards';
+import { meta, type News } from '@/lib/content';
+import { routes } from '@/lib/data';
 
-export function CategoryPage({ name, lead }: { name: string; lead: string }) {
+type Props = {
+  eyebrow: string;
+  name: string;
+  items: News[];
+  intro?: string;
+  filters?: boolean;
+};
+
+// Página de listagem (categorias, tags, críticas, bilheteria…): destaque + 3 manchetes + grade paginada.
+export function CategoryPage({ eyebrow, name, items, intro, filters = true }: Props) {
+  const lead = items.find((n) => n.featured) ?? items[0];
+  const side = items.filter((n) => n !== lead).slice(0, 3);
+  const rest = items.filter((n) => n !== lead && !side.includes(n));
+
   return (
     <main className="container page--loose">
       <div className="page-head">
         <div>
-          <span className="page-head__eyebrow">CATEGORIA</span>
+          <span className="page-head__eyebrow">{eyebrow}</span>
           <h1 className="display">{name}</h1>
         </div>
-        <Pills items={subcats} label="Filtrar categoria" />
+        {intro && <p className="page-head__intro">{intro}</p>}
       </div>
 
-      <section className="cat-lead">
-        <Link href={routes.noticia} className="cat-lead__main">
-          <div className="cat-lead__img placeholder">[ destaque da categoria ]</div>
-          <span className="kicker">DESTAQUE</span>
-          <h2>{lead}</h2>
-        </Link>
-        <div className="cat-lead__list">
-          {news.slice(0, 3).map((n) => (
-            <Link key={n.title} href={routes.noticia} className="cat-lead__item">
-              <span className="kicker">{n.cat}</span>
-              <h3>{n.title}</h3>
-              <span className="meta">{n.time}</span>
+      {lead ? (
+        <>
+          <section className="cat-lead">
+            <Link href={routes.noticia(lead.slug)} className="cat-lead__main">
+              <Media src={lead.image.src} alt={lead.image.alt} className="cat-lead__img" eager />
+              <span className="kicker">DESTAQUE</span>
+              <h2>{lead.title}</h2>
             </Link>
-          ))}
-        </div>
-      </section>
+            <div className="cat-lead__list">
+              {side.map((n) => (
+                <ListItem key={n.slug} n={meta(n)} />
+              ))}
+            </div>
+          </section>
 
-      <div className="ad-row">
-        <Ad size="970x90" />
-      </div>
-
-      <div className="news-grid">
-        {news.map((n) => (
-          <Link key={n.title} href={routes.noticia} className="news-card">
-            <div className="news-card__img" />
-            <span className="kicker">{n.cat}</span>
-            <h3>{n.title}</h3>
-            <span className="meta">{n.time}</span>
-          </Link>
-        ))}
-      </div>
-
-      <nav className="pagination" aria-label="Paginação">
-        <span aria-current="page">1</span>
-        <Link href={routes.emBreve}>2</Link>
-        <Link href={routes.emBreve}>3</Link>
-        <span>…</span>
-        <Link href={routes.emBreve}>24</Link>
-      </nav>
+          {rest.length > 0 && (
+            <>
+              <div className="ad-row">
+                <Ad size="970x90" />
+              </div>
+              <CategoryFeed items={rest.map(meta)} filters={filters} />
+            </>
+          )}
+        </>
+      ) : (
+        <p className="empty">Nenhuma notícia por aqui ainda.</p>
+      )}
     </main>
   );
 }

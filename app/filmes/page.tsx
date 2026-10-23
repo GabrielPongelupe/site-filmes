@@ -1,11 +1,9 @@
 import type { Metadata } from 'next';
 import { CategoryPage } from '@/components/CategoryPage';
-import { categories } from '@/lib/data';
+import { newsByCategory } from '@/lib/content';
 
-const cat = categories.filmes;
-
-export const metadata: Metadata = { title: cat.name };
+export const metadata: Metadata = { title: 'Filmes' };
 
 export default function Page() {
-  return <CategoryPage name={cat.name} lead={cat.lead} />;
+  return <CategoryPage eyebrow="CATEGORIA" name="Filmes" items={newsByCategory('filmes')} />;
 }

@@ -22,7 +22,7 @@ export function Header() {
           ))}
         </nav>
         <div className="header-actions">
-          <form className="search" action={routes.emBreve} role="search">
+          <form className="search" action={routes.busca} role="search">
             <input type="search" name="q" placeholder="Buscar filme, série, ator…" aria-label="Buscar" />
           </form>
           <Link href={routes.emBreve} className="newsletter-btn">

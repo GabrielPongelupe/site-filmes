@@ -1,0 +1,205 @@
+[
+  {
+    "date": "2026-10-01",
+    "platform": "Netflix",
+    "title": "A Leste do Éden",
+    "type": "Série",
+    "genre": "Drama"
+  },
+  {
+    "date": "2026-10-01",
+    "platform": "Disney+",
+    "title": "American Horror Story – Temporada 13",
+    "type": "Série",
+    "genre": "Terror"
+  },
+  {
+    "date": "2026-10-02",
+    "platform": "Prime Video",
+    "title": "Rainha Vermelha – Temporada 2",
+    "type": "Série",
+    "genre": "Fantasia romântica"
+  },
+  {
+    "date": "2026-10-07",
+    "platform": "Prime Video",
+    "title": "Carrie, a Estranha",
+    "type": "Série",
+    "genre": "Terror"
+  },
+  {
+    "date": "2026-10-07",
+    "platform": "Disney+",
+    "title": "Grey's Anatomy – Temporada 22",
+    "type": "Série",
+    "genre": "Drama médico"
+  },
+  {
+    "date": "2026-10-08",
+    "platform": "Disney+",
+    "title": "The Kardashians – Temporada 8",
+    "type": "Reality",
+    "genre": "Celebridades"
+  },
+  {
+    "date": "2026-10-08",
+    "platform": "Globoplay",
+    "title": "The Vampire Diaries – Temporadas 1 a 8",
+    "type": "Série",
+    "genre": "Fantasia"
+  },
+  {
+    "date": "2026-10-08",
+    "platform": "Globoplay",
+    "title": "Dog House Brasil",
+    "type": "Reality",
+    "genre": "Reality"
+  },
+  {
+    "date": "2026-10-09",
+    "platform": "HBO Max",
+    "title": "MasterChef Profissionais – Temporada 6",
+    "type": "Reality",
+    "genre": "Culinária"
+  },
+  {
+    "date": "2026-10-09",
+    "platform": "Disney+",
+    "title": "Oasis: Don't Look Back in Anger",
+    "type": "Doc",
+    "genre": "Música"
+  },
+  {
+    "date": "2026-10-09",
+    "platform": "Apple TV",
+    "title": "Matchbox – O Filme",
+    "type": "Filme",
+    "genre": "Aventura"
+  },
+  {
+    "date": "2026-10-12",
+    "platform": "Globoplay",
+    "title": "Sítio do Picapau Amarelo – Temporadas 5 a 7",
+    "type": "Série",
+    "genre": "Infantil"
+  },
+  {
+    "date": "2026-10-13",
+    "platform": "Globoplay",
+    "title": "Chef de Alto Nível – Temporada 2",
+    "type": "Reality",
+    "genre": "Culinária"
+  },
+  {
+    "date": "2026-10-14",
+    "platform": "Disney+",
+    "title": "VisionQuest",
+    "type": "Série",
+    "genre": "Ficção científica"
+  },
+  {
+    "date": "2026-10-15",
+    "platform": "Netflix",
+    "title": "A Diplomata – Temporada 4",
+    "type": "Série",
+    "genre": "Thriller político"
+  },
+  {
+    "date": "2026-10-15",
+    "platform": "HBO Max",
+    "title": "The Paper",
+    "type": "Série",
+    "genre": "Comédia"
+  },
+  {
+    "date": "2026-10-16",
+    "platform": "Prime Video",
+    "title": "Marília Mendonça: Sentimento Louco",
+    "type": "Doc",
+    "genre": "Música"
+  },
+  {
+    "date": "2026-10-16",
+    "platform": "Apple TV",
+    "title": "Tenzing",
+    "type": "Filme",
+    "genre": "Drama"
+  },
+  {
+    "date": "2026-10-18",
+    "platform": "HBO Max",
+    "title": "Largados e Pelados Brasil – Temporada 4",
+    "type": "Reality",
+    "genre": "Sobrevivência"
+  },
+  {
+    "date": "2026-10-21",
+    "platform": "Prime Video",
+    "title": "A Lista Terminal – Temporada 2",
+    "type": "Série",
+    "genre": "Ação"
+  },
+  {
+    "date": "2026-10-21",
+    "platform": "Apple TV",
+    "title": "Onde Está a Wanda? – Temporada 2",
+    "type": "Série",
+    "genre": "Comédia"
+  },
+  {
+    "date": "2026-10-21",
+    "platform": "Globoplay",
+    "title": "Poderosas do Cerrado – Temporada 2",
+    "type": "Reality",
+    "genre": "Reality"
+  },
+  {
+    "date": "2026-10-22",
+    "platform": "Netflix",
+    "title": "Ninguém Quer – Temporada 3",
+    "type": "Série",
+    "genre": "Comédia romântica"
+  },
+  {
+    "date": "2026-10-23",
+    "platform": "Netflix",
+    "title": "Lupin – Parte 4",
+    "type": "Série",
+    "genre": "Crime"
+  },
+  {
+    "date": "2026-10-23",
+    "platform": "Netflix",
+    "title": "Anora",
+    "type": "Filme",
+    "genre": "Drama"
+  },
+  {
+    "date": "2026-10-23",
+    "platform": "HBO Max",
+    "title": "Mother Mary",
+    "type": "Filme",
+    "genre": "Drama"
+  },
+  {
+    "date": "2026-10-23",
+    "platform": "Prime Video",
+    "title": "Michael",
+    "type": "Filme",
+    "genre": "Cinebiografia"
+  },
+  {
+    "date": "2026-11-04",
+    "platform": "Apple TV",
+    "title": "Stick – Temporada 2",
+    "type": "Série",
+    "genre": "Comédia"
+  },
+  {
+    "date": "2026-11-13",
+    "platform": "Apple TV",
+    "title": "Being Heumann",
+    "type": "Doc",
+    "genre": "Documentário"
+  }
+]

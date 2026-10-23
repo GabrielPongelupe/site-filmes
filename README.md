@@ -15,9 +15,10 @@ Abra http://localhost:3000.
 
 - `app/` — rotas (Next.js App Router)
   - `/` home · `/filmes` `/series` `/streaming` categorias · `/em-alta` · `/estreias`
-  - `/noticia` — página genérica de notícia (todas as notícias apontam para ela)
-  - `/titulo` — página genérica de filme/série (todos os títulos apontam para ela)
-  - `/em-breve` — página genérica para seções ainda não implementadas (trailers, newsletter, busca, institucional)
+  - `/noticia/[slug]` notícia · `/titulo/[slug]` filme/série · `/tag/[tag]` · `/busca`
+  - `/trailers` `/criticas` `/bilheteria` · `/sobre` `/privacidade` · `/em-breve` (newsletter, anuncie, contato)
 - `components/` — header, ticker, rodapé, publicidade e blocos reutilizáveis
-- `lib/data.ts` — conteúdo provisório (placeholder) usado em todas as telas
+- `content/` — notícias (`.md`), fichas de títulos e calendário de estreias; formato em `content/README.md`
+- `lib/content.ts` — lê `content/` no build; `lib/data.ts` — rotas e menus
+- `scripts/validate-content.mjs` — valida o conteúdo (`--net` testa imagens e vídeos)
 - `app/globals.css` — tokens de cor/tipografia e estilos de todas as telas

@@ -17,6 +17,7 @@ Valide sempre depois de editar:
 node scripts/validate-content.mjs              # tudo, sem rede
 node scripts/validate-content.mjs --net        # também testa imagens e vídeos
 node scripts/validate-content.mjs --net content/noticias/2026-05-*.md   # só alguns arquivos
+node scripts/validate-content.mjs --fontes      # abre os links das fontes (ok / bloqueia robôs / quebrada)
 ```
 
 ---

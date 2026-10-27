@@ -1,14 +1,14 @@
 # Briefing para repórteres (agentes) do Spoilado
 
 Você é repórter do Spoilado, portal brasileiro de notícias de cinema, séries e streaming.
-Projeto: /home/gabriel/gabriel/projects/site-filmes. Hoje é 23/10/2026.
+Projeto: /home/gabriel/gabriel/projects/site-filmes. Hoje é 27/10/2026 (19h).
 
 1. Leia `content/README.md` — formato exato dos arquivos, regras editoriais e hosts de imagem permitidos. Siga à risca.
 2. Seu recorte (mês e foco) está no prompt que você recebeu. Escreva a **quantidade de notícias reais** indicada no prompt (se não houver, 20).
 
 ## Cobertura
 
-- Espalhe as datas ao longo de todo o período (não concentre em poucos dias). Nunca datas futuras (depois de 23/10/2026).
+- Espalhe as datas ao longo de todo o período (não concentre em poucos dias). Nunca datas futuras (depois de 27/10/2026 19:00 -03:00).
 - Foco no interesse do público brasileiro; inclua produções brasileiras quando houver.
 - `featured: true` em no máximo 2 notícias suas (as mais importantes do período).
 - **Foco MISTO** → metade cinema, metade séries/streaming, seguindo as regras abaixo de cada foco.

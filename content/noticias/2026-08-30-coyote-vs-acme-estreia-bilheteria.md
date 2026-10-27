@@ -14,8 +14,6 @@ image:
   alt: "Imagem do trailer de Coyote vs. Acme, com o Coiote e o elenco"
   credit: "IGN / YouTube"
 sources:
-  - name: "ABC News / AP"
-    url: "https://abcnews.com/Business/wireStory/meep-meep-coyote-acme-opens-155-million-spider-136072527"
   - name: "The Numbers"
     url: "https://www.the-numbers.com/box-office-chart/weekend/2026/08/28"
 featured: false

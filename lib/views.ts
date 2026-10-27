@@ -1,9 +1,10 @@
 // Visualizações simuladas: o site não mede audiência, então cada notícia recebe um número
-// aleatório mas estável (derivado do slug), sempre acima de 500. Notícias que "bombam" mais
-// — destaque, trailer, crítica e títulos com muitas notícias — recebem mais views.
+// aleatório mas estável (derivado do slug), entre 1.000 e 7.000 — a maioria fica em 2–3 mil.
+// Notícias que "bombam" mais — destaque, trailer, crítica e títulos com muitas notícias — recebem mais views.
 import type { News } from '@/lib/content-shared';
 
-const MIN = 500;
+const MIN = 1000;
+const MAX = 7000;
 
 /** Número pseudoaleatório em [0, 1) a partir de um texto (FNV-1a + mistura). */
 function seeded(text: string) {
@@ -33,6 +34,8 @@ export function assignViews(list: News[]) {
       (n.video ? 0.2 : 0) +
       0.6 * (titleBuzz - 1);
     const r = seeded(n.slug);
-    n.views = Math.round(MIN + (300 + 24000 * r * r) * heat ** 1.6);
+    // base de 1.100 a 2.800; cada ponto de "heat" acima de 1 soma ~38%
+    const base = 1100 + 1700 * r;
+    n.views = Math.round(Math.min(MAX, Math.max(MIN, base * (1 + 0.38 * (heat - 1)))));
   }
 }

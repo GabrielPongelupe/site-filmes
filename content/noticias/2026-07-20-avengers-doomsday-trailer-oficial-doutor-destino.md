@@ -6,7 +6,7 @@ category: filmes
 kind: trailer
 tags: [Vingadores, Marvel, DoutorDestino, XMen]
 titles:
-  - name: "Vingadores: Doomsday"
+  - name: "Vingadores: Doutor Destino"
     type: filme
     year: 2026
 image:

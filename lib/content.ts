@@ -79,9 +79,12 @@ export function newsByKind(k: Kind) {
   return getAllNews().filter((n) => n.kind === k);
 }
 
-/** Notícias de séries/streaming ligadas a uma plataforma, mais recentes primeiro. */
+/**
+ * Notícias de séries/streaming de uma plataforma, mais recentes primeiro.
+ * Listas gerais (3+ plataformas, ex.: "o que chega no fim de semana") ficam de fora para não repetir em todas as abas.
+ */
 export function newsByPlatform(platform: string) {
-  return getAllNews().filter((n) => n.category !== 'filmes' && n.platforms.includes(platform));
+  return getAllNews().filter((n) => n.category !== 'filmes' && n.platforms.includes(platform) && n.platforms.length < 3);
 }
 
 export function newsByTitle(slug: string) {

@@ -6,7 +6,7 @@ category: filmes
 kind: noticia
 tags: [Marvel, ComicCon, VingadoresDoomsday, GhostRider, PanteraNegra]
 titles:
-  - name: "Vingadores: Doomsday"
+  - name: "Vingadores: Doutor Destino"
     type: filme
     year: 2026
   - name: "Pantera Negra 3"

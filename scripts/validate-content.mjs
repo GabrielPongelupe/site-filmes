@@ -8,6 +8,9 @@ import matter from 'gray-matter';
 const root = path.resolve(path.dirname(new URL(import.meta.url).pathname), '..');
 const args = process.argv.slice(2);
 const net = args.includes('--net');
+// --fontes: abre os links das fontes de cada notícia (mais lento; sites podem bloquear robôs)
+const checkSources = args.includes('--fontes');
+const sourceStats = { ok: 0, bloqueado: 0, quebrado: 0 };
 const only = args.filter((a) => !a.startsWith('--')).map((a) => path.resolve(a));
 
 const IMAGE_HOSTS = ['i.ytimg.com', 'upload.wikimedia.org', 'image.tmdb.org'];
@@ -71,6 +74,28 @@ function checkYoutube(f, id, label) {
   });
 }
 
+async function checkSource(f, s) {
+  try {
+    const r = await fetch(s.url, {
+      redirect: 'follow',
+      signal: AbortSignal.timeout(15000),
+      headers: { 'user-agent': 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/130 Safari/537.36', 'accept-language': 'pt-BR,pt;q=0.9,en;q=0.8' },
+    });
+    r.body?.cancel?.();
+    if (r.ok) sourceStats.ok++;
+    else if ([401, 402, 403, 429, 451].includes(r.status)) {
+      sourceStats.bloqueado++;
+      if (args.includes('--verbose')) warn(f, `fonte bloqueia robôs (${r.status}): ${s.url}`);
+    } else {
+      sourceStats.quebrado++;
+      warn(f, `fonte "${s.name}" responde ${r.status}: ${s.url}`);
+    }
+  } catch (e) {
+    sourceStats.quebrado++;
+    warn(f, `fonte "${s.name}" não abriu (${e.name === 'TimeoutError' ? 'tempo esgotado' : e.message}): ${s.url}`);
+  }
+}
+
 // ---------- notícias ----------
 const allNews = listMd('content/noticias');
 const newsSlugs = new Set();
@@ -126,7 +151,10 @@ for (const f of selected(allNews)) {
   if (!Array.isArray(data.sources) || data.sources.length === 0) err(f, '"sources" precisa de ao menos 1 fonte');
   else for (const s of data.sources) {
     if (!s?.name || !s?.url) err(f, 'cada fonte precisa de name e url');
-    else try { new URL(s.url); } catch { err(f, `fonte com URL inválida: ${s.url}`); }
+    else try {
+      new URL(s.url);
+      if (checkSources) netChecks.push(() => checkSource(f, s));
+    } catch { err(f, `fonte com URL inválida: ${s.url}`); }
   }
 
   const words = content.trim().split(/\s+/).filter(Boolean).length;
@@ -185,6 +213,9 @@ if (netChecks.length) {
 }
 
 for (const w of warnings) console.log(`aviso  ${w}`);
+if (checkSources) {
+  console.log(`\nfontes: ${sourceStats.ok} ok · ${sourceStats.bloqueado} bloqueiam robôs (abrem no navegador) · ${sourceStats.quebrado} quebradas/inexistentes`);
+}
 for (const e of errors) console.log(`ERRO   ${e}`);
 console.log(`\n${errors.length} erro(s), ${warnings.length} aviso(s). ${allNews.length} notícia(s) no total.${net ? '' : ' (sem --net: imagens/vídeos não testados)'}`);
 process.exit(errors.length ? 1 : 0);

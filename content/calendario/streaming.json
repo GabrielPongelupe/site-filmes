@@ -133,6 +133,48 @@
     "genre": "Sobrevivência"
   },
   {
+    "date": "2026-10-19",
+    "platform": "Globoplay",
+    "title": "As Meninas da Garagem Secreta",
+    "type": "Série",
+    "genre": "Série"
+  },
+  {
+    "date": "2026-10-20",
+    "platform": "Disney+",
+    "title": "Fingida",
+    "type": "Série",
+    "genre": "Suspense"
+  },
+  {
+    "date": "2026-10-20",
+    "platform": "Netflix",
+    "title": "Cyberpunk: Mercenários 2",
+    "type": "Série",
+    "genre": "Ficção científica"
+  },
+  {
+    "date": "2026-10-20",
+    "platform": "Netflix",
+    "title": "Halloween",
+    "type": "Filme",
+    "genre": "Terror"
+  },
+  {
+    "date": "2026-10-20",
+    "platform": "Netflix",
+    "title": "Halloween Kills – O Terror Continua",
+    "type": "Filme",
+    "genre": "Terror"
+  },
+  {
+    "date": "2026-10-20",
+    "platform": "Prime Video",
+    "title": "Reboque",
+    "type": "Filme",
+    "genre": "Filme"
+  },
+  {
     "date": "2026-10-21",
     "platform": "Prime Video",
     "title": "A Lista Terminal – Temporada 2",
@@ -159,6 +201,34 @@
     "title": "Ninguém Quer – Temporada 3",
     "type": "Série",
     "genre": "Comédia romântica"
+  },
+  {
+    "date": "2026-10-22",
+    "platform": "Globoplay",
+    "title": "Verônika com K",
+    "type": "Série",
+    "genre": "Série"
+  },
+  {
+    "date": "2026-10-22",
+    "platform": "HBO Max",
+    "title": "O Colombiano de Keko",
+    "type": "Série",
+    "genre": "Série"
+  },
+  {
+    "date": "2026-10-22",
+    "platform": "HBO Max",
+    "title": "Georgie & Mandy – Seu Primeiro Casamento",
+    "type": "Série",
+    "genre": "Comédia"
+  },
+  {
+    "date": "2026-10-22",
+    "platform": "HBO Max",
+    "title": "O Massacre de Flores",
+    "type": "Doc",
+    "genre": "Documentário"
   },
   {
     "date": "2026-10-23",
@@ -189,11 +259,130 @@
     "genre": "Cinebiografia"
   },
   {
+    "date": "2026-10-23",
+    "platform": "Netflix",
+    "title": "Navio Fantasma",
+    "type": "Filme",
+    "genre": "Terror"
+  },
+  {
+    "date": "2026-10-23",
+    "platform": "Netflix",
+    "title": "Star Trek: Sem Fronteiras",
+    "type": "Filme",
+    "genre": "Ficção científica"
+  },
+  {
+    "date": "2026-10-23",
+    "platform": "HBO Max",
+    "title": "Devorador",
+    "type": "Filme",
+    "genre": "Filme"
+  },
+  {
+    "date": "2026-10-23",
+    "platform": "Globoplay",
+    "title": "A Noite dos Lobisomens",
+    "type": "Filme",
+    "genre": "Filme"
+  },
+  {
+    "date": "2026-10-24",
+    "platform": "Globoplay",
+    "title": "Agentes (Muito) Especiais",
+    "type": "Filme",
+    "genre": "Filme"
+  },
+  {
+    "date": "2026-10-26",
+    "platform": "Prime Video",
+    "title": "Tony",
+    "type": "Filme",
+    "genre": "Filme"
+  },
+  {
+    "date": "2026-10-27",
+    "platform": "Netflix",
+    "title": "Aquele Sobre Matthew Perry",
+    "type": "Doc",
+    "genre": "Documentário"
+  },
+  {
+    "date": "2026-10-27",
+    "platform": "Globoplay",
+    "title": "Mistérios de um Dentista",
+    "type": "Série",
+    "genre": "Série"
+  },
+  {
+    "date": "2026-10-28",
+    "platform": "Prime Video",
+    "title": "Drive – Os Pretendentes",
+    "type": "Filme",
+    "genre": "Filme"
+  },
+  {
+    "date": "2026-10-29",
+    "platform": "HBO Max",
+    "title": "Poeta Canibal",
+    "type": "Doc",
+    "genre": "Documentário"
+  },
+  {
+    "date": "2026-10-29",
+    "platform": "Prime Video",
+    "title": "Frutas Proibidas",
+    "type": "Filme",
+    "genre": "Filme"
+  },
+  {
+    "date": "2026-10-29",
+    "platform": "Globoplay",
+    "title": "Arquivos do Céu",
+    "type": "Doc",
+    "genre": "Documentário"
+  },
+  {
+    "date": "2026-10-30",
+    "platform": "Apple TV",
+    "title": "Nocturne",
+    "type": "Série",
+    "genre": "Drama policial"
+  },
+  {
+    "date": "2026-10-30",
+    "platform": "Prime Video",
+    "title": "Apocalipse Z – Novo Mundo",
+    "type": "Filme",
+    "genre": "Terror"
+  },
+  {
+    "date": "2026-10-30",
+    "platform": "Globoplay",
+    "title": "O Último Grande Assalto",
+    "type": "Filme",
+    "genre": "Filme"
+  },
+  {
+    "date": "2026-10-31",
+    "platform": "Prime Video",
+    "title": "Until Dawn – Noite de Terror",
+    "type": "Filme",
+    "genre": "Terror"
+  },
+  {
     "date": "2026-11-04",
     "platform": "Apple TV",
     "title": "Stick – Temporada 2",
     "type": "Série",
     "genre": "Comédia"
+  },
+  {
+    "date": "2026-11-04",
+    "platform": "Disney+",
+    "title": "A Imperatriz se Casou Novamente",
+    "type": "Série",
+    "genre": "Drama"
   },
   {
     "date": "2026-11-13",

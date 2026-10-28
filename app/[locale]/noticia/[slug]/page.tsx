@@ -1,7 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { Ad } from '@/components/Ad';
 import { Media } from '@/components/Media';
 import { Highlights, RelatedItem } from '@/components/NewsCards';
 import { ShareButtons } from '@/components/ShareButtons';
@@ -154,9 +153,7 @@ export default async function NoticiaPage({ params }: PageProps<'/[locale]/notic
       </article>
 
       <aside className="article-aside">
-        <Ad size="300x250" l={l} />
         <Highlights items={mostRead(5, [n.slug], l).map(meta)} l={l} />
-        <Ad size="300x600" l={l} className="sticky-ad" />
       </aside>
     </main>
   );

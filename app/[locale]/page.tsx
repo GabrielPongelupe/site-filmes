@@ -1,6 +1,5 @@
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { Ad } from '@/components/Ad';
 import { Media } from '@/components/Media';
 import { FeedItem, Highlights, ListItem, SideCard, TrailerCard } from '@/components/NewsCards';
 import { StreamingTabs } from '@/components/StreamingTabs';
@@ -122,7 +121,6 @@ export default async function Home({ params }: PageProps<'/[locale]'>) {
         </div>
         <aside className="sidebar">
           <Highlights items={highlights.map(meta)} l={l} boxed />
-          <Ad size="300x250" l={l} />
           {top.length > 0 && (
             <div className="promo">
               <span className="display promo__title">{t.home.trendingNow}</span>

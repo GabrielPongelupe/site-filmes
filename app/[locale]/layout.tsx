@@ -1,7 +1,6 @@
 import type { Metadata } from 'next';
 import { notFound } from 'next/navigation';
 import { Big_Shoulders, JetBrains_Mono, Schibsted_Grotesk } from 'next/font/google';
-import { LeaderboardAd } from '@/components/Ad';
 import { Footer } from '@/components/Footer';
 import { Header } from '@/components/Header';
 import { Ticker } from '@/components/Ticker';
@@ -50,7 +49,6 @@ export default async function RootLayout({ children, params }: LayoutProps<'/[lo
       <body>
         <Header l={locale} />
         <Ticker l={locale} />
-        <LeaderboardAd l={locale} />
         {children}
         <Footer l={locale} />
       </body>

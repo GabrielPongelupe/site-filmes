@@ -1,7 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { Ad } from '@/components/Ad';
 import { Media } from '@/components/Media';
 import { getAllNews, getTrending, trendingTags } from '@/lib/content';
 import { getDictionary } from '@/lib/dictionaries';
@@ -74,7 +73,6 @@ export default async function EmAltaPage({ params }: PageProps<'/[locale]/em-alt
               ))}
             </div>
           </div>
-          <Ad size="300x600" l={l} />
         </aside>
       </section>
     </main>

@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import { Ad } from '@/components/Ad';
 import { CategoryFeed } from '@/components/CategoryFeed';
 import { Media } from '@/components/Media';
 import { ListItem } from '@/components/NewsCards';
@@ -50,9 +49,6 @@ export function CategoryPage({ eyebrow, name, items, intro, filters = true, l }:
 
           {rest.length > 0 && (
             <>
-              <div className="ad-row">
-                <Ad size="970x90" l={l} />
-              </div>
               <CategoryFeed items={rest.map(meta)} filters={filters} l={l} />
             </>
           )}

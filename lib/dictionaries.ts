@@ -11,7 +11,6 @@ const pt = {
   header: { homeAria: 'Spoilado — página inicial', search: 'Buscar filme, série, ator…', searchAria: 'Buscar', newsletter: 'Newsletter' },
   region: { label: 'País e idioma', change: 'Mudar país/idioma' },
   ticker: 'AGORA',
-  ad: 'PUBLICIDADE',
   footer: {
     tagline: 'Notícias, trailers e estreias de cinema e streaming, todo dia.',
     sections: 'EDITORIAS',
@@ -19,7 +18,7 @@ const pt = {
     about: 'SPOILADO',
     links: {
       filmes: 'Filmes', series: 'Séries', criticas: 'Críticas', emAlta: 'Em alta', trailers: 'Trailers',
-      bilheteria: 'Bilheteria', sobre: 'Sobre', anuncie: 'Anuncie', contato: 'Contato', privacidade: 'Privacidade',
+      bilheteria: 'Bilheteria', sobre: 'Sobre', contato: 'Contato', privacidade: 'Privacidade',
     },
   },
   category: { filmes: 'Filmes', series: 'Séries', streaming: 'Streaming' },
@@ -182,7 +181,6 @@ const esES: Dictionary = {
   header: { homeAria: 'Spoilado — página de inicio', search: 'Buscar película, serie, actor…', searchAria: 'Buscar', newsletter: 'Newsletter' },
   region: { label: 'País e idioma', change: 'Cambiar país/idioma' },
   ticker: 'AHORA',
-  ad: 'PUBLICIDAD',
   footer: {
     tagline: 'Noticias, tráilers y estrenos de cine y streaming, cada día.',
     sections: 'SECCIONES',
@@ -190,7 +188,7 @@ const esES: Dictionary = {
     about: 'SPOILADO',
     links: {
       filmes: 'Películas', series: 'Series', criticas: 'Críticas', emAlta: 'Tendencias', trailers: 'Tráilers',
-      bilheteria: 'Taquilla', sobre: 'Quiénes somos', anuncie: 'Publicidad', contato: 'Contacto', privacidade: 'Privacidad',
+      bilheteria: 'Taquilla', sobre: 'Quiénes somos', contato: 'Contacto', privacidade: 'Privacidad',
     },
   },
   category: { filmes: 'Películas', series: 'Series', streaming: 'Streaming' },
@@ -350,7 +348,7 @@ const esES: Dictionary = {
 const es419: Dictionary = {
   ...esES,
   region: { label: 'País e idioma', change: 'Cambiar país/idioma' },
-  footer: { ...esES.footer, links: { ...esES.footer.links, sobre: 'Quiénes somos', anuncie: 'Anúnciate' } },
+  footer: { ...esES.footer, links: { ...esES.footer.links, sobre: 'Quiénes somos' } },
   kicker: { ...esES.kicker, filmes: 'CINE' },
   home: {
     ...esES.home,

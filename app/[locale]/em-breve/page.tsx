@@ -4,7 +4,7 @@ import { notFound } from 'next/navigation';
 import { getDictionary } from '@/lib/dictionaries';
 import { isLocale, paths } from '@/lib/i18n';
 
-// Página genérica para seções que ainda não existem (newsletter, anuncie, contato).
+// Página genérica para seções que ainda não existem (contato).
 export async function generateMetadata({ params }: PageProps<'/[locale]/em-breve'>): Promise<Metadata> {
   const { locale } = await params;
   return isLocale(locale) ? { title: getDictionary(locale).pages.soonTitle } : {};

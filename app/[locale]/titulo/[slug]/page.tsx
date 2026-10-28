@@ -1,7 +1,6 @@
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import { notFound } from 'next/navigation';
-import { Ad } from '@/components/Ad';
 import { Media } from '@/components/Media';
 import { RelatedItem } from '@/components/NewsCards';
 import { WatchlistButton } from '@/components/WatchlistButton';
@@ -184,7 +183,6 @@ export default async function TituloPage({ params }: PageProps<'/[locale]/titulo
               </dl>
             </div>
           )}
-          <Ad size="300x250" l={l} />
           <Link href={r.emAlta} className="see-all">{d.title.seeTrending}</Link>
         </aside>
       </div>

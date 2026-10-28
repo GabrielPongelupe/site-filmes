@@ -4,7 +4,6 @@ import Link from 'next/link';
 import { useState } from 'react';
 import { Media } from '@/components/Media';
 import { TimeAgo } from '@/components/TimeAgo';
-import { Views } from '@/components/Views';
 import type { NewsMeta, StreamingRelease } from '@/lib/content-shared';
 import { getDictionary } from '@/lib/dictionaries';
 import { addDays, formatDay } from '@/lib/format';
@@ -30,7 +29,6 @@ function NewsPoster({ n, l }: { n: NewsMeta; l: Locale }) {
       <Media src={n.image.src} alt={n.image.alt} variant="poster" className="poster-card__img poster-card__img--wide">
         <span className="poster-card__date">{formatDay(n.date.slice(0, 10), l)}</span>
         {n.video && <span className="poster-card__play" aria-hidden="true">▶</span>}
-        <Views n={n.views} l={l} overlay />
       </Media>
       <div className="poster-card__text">
         <h3>{n.title}</h3>

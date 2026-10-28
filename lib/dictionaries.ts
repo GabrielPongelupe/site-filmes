@@ -44,7 +44,6 @@ const pt = {
   readingTime: (n: number) => `${n} min de leitura`,
   streaming: { title: 'Chegou no streaming', tabs: 'Plataformas', placeholder: '[ estreia ]' },
   mostRead: 'Mais lidas',
-  views: 'visualizações',
   feed: {
     all: 'Tudo',
     filter: 'Filtrar',
@@ -214,7 +213,6 @@ const esES: Dictionary = {
   readingTime: (n: number) => `${n} min de lectura`,
   streaming: { title: 'Novedades en streaming', tabs: 'Plataformas', placeholder: '[ estreno ]' },
   mostRead: 'Lo más leído',
-  views: 'visualizaciones',
   feed: {
     all: 'Todo',
     filter: 'Filtrar',

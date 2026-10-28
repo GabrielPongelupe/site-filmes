@@ -4,7 +4,6 @@ import { Media } from '@/components/Media';
 import { FeedItem, Highlights, ListItem, SideCard, TrailerCard } from '@/components/NewsCards';
 import { StreamingTabs } from '@/components/StreamingTabs';
 import { TimeAgo } from '@/components/TimeAgo';
-import { Views } from '@/components/Views';
 import {
   PLATFORMS, categoryLabel, contentDate, getAllNews, getStreamingReleases, getTrending, kicker, meta, mostRead, newsByPlatform, recentNews,
 } from '@/lib/content';
@@ -72,7 +71,6 @@ export default async function Home({ params }: PageProps<'/[locale]'>) {
             <h1 className="display">{hero.title}</h1>
             <p>{hero.dek}</p>
             <div className="hero-main__meta">
-              <Views n={hero.views} l={l} overlay />
               <span className="meta-muted" style={{ fontSize: 12 }}>
                 <TimeAgo date={hero.date} l={l} /> · {t.readingTime(readingTime(hero.html))}
               </span>

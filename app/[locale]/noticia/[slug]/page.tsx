@@ -4,7 +4,6 @@ import { notFound } from 'next/navigation';
 import { Media } from '@/components/Media';
 import { Highlights, RelatedItem } from '@/components/NewsCards';
 import { ShareButtons } from '@/components/ShareButtons';
-import { ViewCount } from '@/components/ViewCount';
 import { YouTube } from '@/components/YouTube';
 import {
   categoryLabel, getAllNews, getNews, getTitle, kicker, meta, mostRead, relatedNews, slugify, titleImage,
@@ -81,7 +80,6 @@ export default async function NoticiaPage({ params }: PageProps<'/[locale]/notic
             </div>
           </div>
           <div className="byline__actions">
-            <ViewCount views={n.views} l={l} />
             <ShareButtons l={l} />
           </div>
         </div>

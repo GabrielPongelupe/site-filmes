@@ -1,0 +1,21 @@
+---
+title: "Lee Child ve a Susan Turner como candidata al próximo spin-off de Reacher en Prime Video"
+dek: "Tras Neagley, el autor señala a la general del libro Chain Reaction como personaje capaz de sostener una serie propia; no hay aprobación oficial."
+titles: ["Reacher", "Neagley"]
+imageAlt: "Imagen del tráiler oficial de Neagley, spin-off de Reacher"
+videoTitle: "Neagley: tráiler oficial | Temporada 1 | Prime Video"
+---
+
+El universo de **Reacher** podría sumar otro derivado. En una entrevista publicada esta semana, el autor Lee Child señaló a **Susan Turner** como nombre natural para un nuevo spin-off en Prime Video, tras el éxito de *Neagley*. Es solo una idea de los creadores: el estudio no anunció ningún proyecto.
+
+## Por qué Turner
+
+El personaje apareció en el cine en *Jack Reacher: Never Go Back*, interpretado por Cobie Smulders. En el nuevo libro de la serie, *Chain Reaction*, publicado el 20 de octubre, ella ha sido ascendida a general y dirige una unidad militar de investigación que actúa de forma independiente y responde directamente al jefe del Estado Mayor del Ejército. Child y el coautor Andrew Child consideran que ese cargo permite contar historias sin depender de Reacher en cada episodio.
+
+Con un tono de broma realista, Lee Child comentó que, como Amazon ya tiene *Neagley*, la empresa suele querer más cuando algo funciona. La serie con Maria Sten fue renovada para una segunda temporada el 1 de octubre, después de atraer unos 40 millones de espectadores en 13 días, según la información divulgada.
+
+## Qué viene
+
+Los Child también destacaron la ventaja de reutilizar personajes conocidos: eso resuelve un problema práctico de guion, el de darle a Reacher un motivo para involucrarse en cada caso. Además, existe un libro derivado de *Neagley*, *Zero Margin*, escrito con Yasmin Angoe y previsto para marzo de 2027.
+
+Para quien sigue la serie desde Brasil, tanto *Reacher* como *Neagley* están disponibles en Prime Video. Cualquier serie sobre Turner dependería de la aprobación de Amazon MGM Studios y de la negociación con los actores involucrados.

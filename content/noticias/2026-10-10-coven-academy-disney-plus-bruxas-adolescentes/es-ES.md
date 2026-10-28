@@ -1,0 +1,28 @@
+---
+title: "Coven Academy llega a Disney+ con 21 capítulos cortos y brujas adolescentes en Nueva Orleans"
+dek: "La serie de Tim Federle, creador de *High School Musical: La Serie*, se estrenó con todos los capítulos disponibles en streaming el 2 de octubre."
+imageAlt: "Escena del tráiler doblado de Coven Academy, serie de brujas adolescentes de Disney+"
+videoTitle: "Coven Academy | Tráiler oficial doblado"
+titles: ["Coven Academy"]
+---
+
+Una de las apuestas de Halloween de Disney+ en Brasil, **Coven Academy** está disponible desde el 2 de octubre y se ha puesto en el radar de quien busca algo para maratonear los fines de semana de octubre. La serie fue creada por Tim Federle, nombre detrás de *High School Musical: La Serie: El Musical*, y se emitió en Estados Unidos por el canal Freeform la noche del 1 de octubre, antes de llegar completa al streaming.
+
+## De qué trata
+
+La trama transcurre en Nueva Orleans, en un internado de élite para jóvenes con dones sobrenaturales. Tres adolescentes brujas y sus compañeros brujos compiten por el poder, guardan secretos peligrosos y enfrentan romances prohibidos, mientras quedan en medio de antiguas guerras sobrenaturales. Según Disney, los personajes deben decidir hasta dónde están dispuestos a llegar para proteger la ciudad y a sí mismos.
+
+## Un formato distinto
+
+La producción se cuenta en una secuencia de 21 capítulos cortos, pensados para un ritmo acelerado. Disney+ liberó todos de una vez, lo que favorece la maratón. Quien prefiera seguirla poco a poco puede dividirla en sesiones breves, ya que cada capítulo es bastante más corto que un episodio tradicional de televisión.
+
+## Reparto
+
+- Malina Pauli Weissman interpreta a Briar, una neoyorquina independiente que descubre que es bruja.
+- Malachi Barton da vida a Jake, un brujo magnético y de conducta arriesgada.
+- Jordan Leftwich, Ora Duplass y Louis Thresher completan el núcleo joven.
+- Tiffani Thiessen es la directora Miss Graves, y Devon Sawa aparece como invitado especial en el papel del profesor Mr. Cole.
+
+El tráiler, con la canción "Brutal", de Olivia Rodrigo, muestra la tensión dentro del grupo de amigas y los misterios en torno al pasado de Briar. Coven Academy ocupa el espacio del público joven adulto en el catálogo, junto a otras series de fantasía de la casa, y llega en un mes en que la plataforma también apuesta por VisionQuest y por el terror para Halloween.
+
+La serie está disponible con audio doblado y subtítulos en Disney+.

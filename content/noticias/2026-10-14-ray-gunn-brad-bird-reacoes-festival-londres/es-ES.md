@@ -1,0 +1,25 @@
+---
+title: "Ray Gunn, de Brad Bird, divide a la crítica tras su estreno en el Festival de Londres"
+dek: "La animación noir con Scarlett Johansson y Sam Rockwell fue aplaudida por el público, recibió la máxima nota de The Guardian y críticas tibias en la prensa estadounidense. Llega a Netflix el 18 de diciembre."
+titles: ["Ray Gunn"]
+imageAlt: "Escena del tráiler oficial de Ray Gunn, animación noir de Brad Bird"
+videoTitle: "Ray Gunn | Tráiler oficial"
+---
+
+Tras más de 30 años en desarrollo, *Ray Gunn* por fin llegó al público. La animación de Brad Bird, director de *Los Increíbles* y *Ratatouille*, tuvo su estreno mundial en el BFI London Film Festival, el 10 de octubre, en el Royal Festival Hall. En la sesión estuvieron el director, el compositor Michael Giacchino y los actores de voz Scarlett Johansson y Sam Rockwell. La producción es de Skydance Animation y llega al catálogo de Netflix el 18 de diciembre, con una breve exhibición en cines en formato 70 mm antes de esa fecha.
+
+## Un noir retrofuturista
+
+La película es una aventura de detectives en clima noir, con un aspecto retrofuturista. Rockwell presta la voz al protagonista, Raymond "Ray" Gunn, y Johansson interpreta a Venus Nova. El elenco de voces incluye también a Tom Waits, Matt Berry (el villano principal), Alan Tudyk, Bobby Cannavale y Michael Chernus.
+
+Según el sitio What's on Netflix, la idea nació de una confusión de Bird: entendió mal la letra de una canción de los B-52s y la mezcló en la memoria con el tema de *Peter Gunn*, de Henry Mancini. Johansson contó en el estreno que lo que la atrajo, ante todo, fue la oportunidad de trabajar con el director.
+
+## Reacciones divididas
+
+El público de Londres reaccionó con risas y aplausos, pero la prensa fue menos unánime. The Guardian le dio cinco estrellas sobre cinco. Courtney Howard, crítica de Los Ángeles, comparó la mezcla con *Blade Runner* y *El halcón maltés*, y Matt Neglia, de Next Best Picture, destacó los personajes memorables y las escenas de acción.
+
+En cambio, Angie Han, de The Hollywood Reporter, consideró que el resultado es una mezcla digerible de clichés de ciencia ficción y noir. Guy Lodge, de Variety, reconoció la energía de la película, pero echó en falta encanto. What's on Netflix le dio 3,5 sobre 5 y elogió el esmero de Bird, señalando que la película no alcanza todo su potencial. El agregador Rotten Tomatoes marcaba alrededor de un 91 % de aprobación al momento de publicarse este texto.
+
+## Cuándo verla en Brasil
+
+El 18 de diciembre la película estará disponible en Netflix en todo el mundo, incluido Brasil. La proyección en 70 mm debería limitarse a pocas salas, y todavía no hay información sobre cines brasileños.

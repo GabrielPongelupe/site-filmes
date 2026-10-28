@@ -1,0 +1,23 @@
+---
+title: "Muere Michael Gray, el Billy Batson de la serie clásica de Shazam!, a los 75 años"
+dek: "El actor murió el 16 de octubre por causas naturales, y la noticia se anunció el jueves (22). Tuvo un pequeño papel en Shazam! Fury of the Gods, décadas después de la serie de 1974."
+imageAlt: "Escena del tráiler oficial de Shazam! Fury of the Gods, película en la que Michael Gray hizo una aparición"
+---
+
+El actor estadounidense Michael Gray, que interpretó a Billy Batson en la serie de televisión *Shazam!*, murió el 16 de octubre en Palm Desert, California, a los 75 años. La causa fue natural, y la muerte se dio a conocer el jueves (22) a través de su representante.
+
+## El chico que se volvía héroe
+
+En la serie de CBS, emitida entre 1974 y 1976, Gray interpretaba a un adolescente que, al pronunciar la palabra mágica «¡Shazam!», se transformaba en el Capitán Marvel. La serie era una atracción de los sábados por la mañana y convirtió al actor en un ídolo adolescente de la época, presencia frecuente en portadas de revistas dirigidas al público joven.
+
+Antes y después, trabajó mucho en televisión. Apareció en *The Brady Bunch* como Jeff, el novio de Marcia, y tuvo participaciones en *Dynasty*, *Marcus Welby, M.D.* y *The Flying Nun*.
+
+## De vuelta al universo Shazam
+
+En las últimas décadas, Gray dobló personajes en la animación *Archer*, apareció en el programa *Comic Book Men* y tuvo un papel, como un hombre en la calle, en *Shazam! Fury of the Gods* (2023), parte de la franquicia moderna de DC que reimaginó al personaje.
+
+## A quienes deja
+
+Gray estaba casado desde 1994 con Stacy Benon Gray. Deja también a sus hijastros Ryan Cooper y Laurel Cooper, y a su yerno, Lee Barker.
+
+Para quienes quieran recordar la época, la serie clásica sigue siendo recordada por los fanáticos de los cómics como una de las primeras adaptaciones de superhéroes en acción real para la televisión.

@@ -1,0 +1,24 @@
+---
+title: "Golden Globes 2026 en TV: 'Adolescencia' gana cuatro premios; 'The Pitt' y 'The Studio' triunfan"
+dek: "La miniserie de Netflix dominó la noche con mejor serie limitada, mejor actor y dos premios de reparto. Owen Cooper, de 16 años, hizo historia."
+imageAlt: "Mejores momentos de la 83.ª ceremonia de los Golden Globes, en 2026"
+titles: ["Adolescencia", "The Pitt"]
+---
+
+En la parte televisiva de los Golden Globes, realizada el domingo (11), la gran ganadora fue "Adolescencia", la miniserie de Netflix que se estrenó en marzo de 2025. La producción británica se llevó cuatro estatuillas, la mayor cantidad entre los títulos de televisión.
+
+## Los premios de Adolescencia
+
+La serie fue elegida mejor miniserie, antología o película para televisión. Stephen Graham ganó como mejor actor en esa categoría, mientras que Erin Doherty se llevó el premio a mejor actriz de reparto. Owen Cooper, que interpreta al joven Jamie, obtuvo el de mejor actor de reparto y, a los 16 años, se convirtió en el ganador más joven de esa categoría.
+
+La trama sigue la investigación sobre un chico de 13 años acusado de matar a una compañera, y cada episodio se filmó en plano secuencia. La serie está disponible en Netflix.
+
+## Series dramáticas y de comedia
+
+En drama, el premio fue para "The Pitt", un drama médico ambientado en una sala de urgencias. La categoría de comedia o musical quedó en manos de "The Studio", una sátira sobre los bastidores de un estudio de Hollywood.
+
+## Por qué importa
+
+El resultado refuerza el peso de las producciones de streaming y de las series más breves en la temporada de premios. Para el público brasileño, "Adolescencia" es un buen punto de partida: son solo cuatro episodios, todos ya en el catálogo de la plataforma.
+
+Las series "The Pitt" y "The Studio" también tienen temporadas anteriores disponibles en el streaming; revisa la disponibilidad en tu servicio antes de maratonear, ya que los catálogos cambian con frecuencia.

@@ -1142,6 +1142,59 @@ a:hover .hover-accent { color: var(--accent); }
 .desk__title { margin: 0; font-size: 30px; }
 .desk .cat-lead__item h3 { font-size: 18px; }
 
+.region {
+  position: relative;
+  height: 38px;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 0 10px 0 12px;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  color: var(--text-dim);
+  cursor: pointer;
+}
+.region:hover, .region:focus-within { border-color: var(--line-strong); color: var(--text); }
+.region svg { flex-shrink: 0; color: var(--accent); }
+.region select {
+  appearance: none;
+  background: transparent;
+  border: 0;
+  color: inherit;
+  font: inherit;
+  font-size: 13px;
+  font-weight: 600;
+  cursor: pointer;
+  max-width: 170px;
+  outline: none;
+}
+.region select option { background: var(--surface); color: var(--text); }
+.region--footer { align-self: flex-start; margin-top: 6px; }
+.region__short { font-size: 13px; font-weight: 700; letter-spacing: .04em; }
+.region--compact select { position: absolute; inset: 0; width: 100%; max-width: none; opacity: 0; }
+
+.newsletter-form { width: 100%; max-width: 560px; margin-top: 8px; display: flex; flex-direction: column; gap: 12px; }
+.newsletter-form__row { display: flex; gap: 10px; flex-wrap: wrap; }
+.newsletter-form__row input[type='email'] {
+  flex: 1 1 260px;
+  height: 48px;
+  padding: 0 20px;
+  border-radius: 999px;
+  border: 1px solid var(--line-strong);
+  background: var(--surface);
+  color: var(--text);
+  font: inherit;
+  font-size: 16px;
+}
+.newsletter-form__row input[type='email']:focus { outline: none; border-color: var(--accent); }
+.newsletter-form__row .btn { cursor: pointer; }
+.newsletter-form__row .btn:disabled { opacity: .6; cursor: progress; }
+.newsletter-form__trap { position: absolute; left: -9999px; width: 1px; height: 1px; opacity: 0; }
+.newsletter-form__msg { margin: 0; font-size: 15px; font-weight: 600; }
+.newsletter-form__msg.is-ok { color: var(--up); }
+.newsletter-form__msg.is-error { color: var(--down); }
+.newsletter-form__consent { margin: 0; font-size: 13px !important; color: var(--muted) !important; }
+
 /* ============================================================
    Responsivo — o protótipo é desktop (1240px+); abaixo disso
    as grades colapsam mantendo a mesma linguagem visual.
@@ -1198,6 +1251,7 @@ a:hover .hover-accent { color: var(--accent); }
   :root { --gutter: 16px; }
 
   .search { display: none; }
+  .header-actions .region { display: none; }
   .logo__name { font-size: 26px; }
 
   .section { margin-top: 44px; }

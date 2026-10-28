@@ -1,0 +1,26 @@
+---
+title: "Imperium, de Sergei Loznitsa, gana el premio a mejor película del Festival de Londres"
+dek: "Un documental de archivo sobre la Unión Soviética de los años setenta se llevó el premio principal de la 70.ª edición del BFI London Film Festival, que terminó el domingo (18)."
+imageAlt: "Imagen del tráiler de Ray Gunn, uno de los estrenos mundiales del Festival de Londres de 2026"
+titles: ["Imperium"]
+---
+
+El BFI London Film Festival cerró su 70.ª edición el domingo (18) con el anuncio de los ganadores de la competición oficial. El premio a mejor película fue para *Imperium*, del ucraniano Sergei Loznitsa. El festival se celebró del 7 al 18 de octubre.
+
+## El ganador
+
+*Imperium* revisita la Unión Soviética de comienzos de los años setenta a partir de material de archivo, en especial imágenes filmadas por camarógrafos italianos. Loznitsa es conocido por ese tipo de trabajo, que monta el pasado con grabaciones originales y poca o ninguna narración.
+
+## Los otros premiados
+
+- **Premio Sutherland (primer largometraje):** *9 Temples to Heaven*, de Sompot Chidgasornpongse, descrito por el festival como una obra espiritual y meditativa sobre la vida y la muerte entre generaciones en el sudeste asiático. Mención especial para *Masc*, de Bertil Nilsson.
+- **Premio Grierson (documental):** *Concrete Land*, de Asmahan Bkerat, retrato de una familia en Jordania que enfrenta el desplazamiento forzado. Mención especial para *Queer Edward II*, de Theo Rollason.
+- **Mejor cortometraje:** *Aman*, de Rahul Roye, sobre un hombre trans ante un embarazo inesperado. Mención especial para *Daughters of the Late Colonel*, de Elizabeth Hobbs.
+
+Entre los miembros del jurado estuvieron el cineasta Sam Pollard, el actor Amir El-Masry y la directora Sandhya Suri. El cortometraje ganador está disponible gratis en BFI Player hasta el 25 de octubre.
+
+## Estrenos que marcaron la edición
+
+Además de la competición, el festival sirvió de escaparate para estrenos mundiales como *Ray Gunn*, animación de Brad Bird con Scarlett Johansson y Sam Rockwell, proyectada el 10 de octubre y prevista para Netflix el 18 de diciembre.
+
+Ninguna de las películas premiadas tiene fecha de estreno anunciada en Brasil hasta el momento.

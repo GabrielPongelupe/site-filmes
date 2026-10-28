@@ -1,0 +1,21 @@
+---
+title: "Mike Flanagan dice que la serie de La Torre Oscura seguirá los libros de Stephen King en orden"
+dek: "Los guiones de la primera temporada están listos y empiezan por El pistolero, según el director, que defiende la fidelidad al universo de King."
+imageAlt: "Imagen del tráiler de Carrie, serie de Mike Flanagan basada en Stephen King"
+---
+
+Tras el éxito de *Carrie*, **Mike Flanagan** dio detalles sobre su próxima gran adaptación de Stephen King: la serie de **La Torre Oscura** (*The Dark Tower*). En una entrevista difundida el 14 de octubre, confirmó que la historia seguirá los ocho libros en su orden original, empezando por *El pistolero*.
+
+## La fidelidad como regla
+
+Flanagan explicó por qué descartó enfoques que empiezan a mitad de la saga: según él, el público no puede ser lanzado de golpe a un universo tan vasto. La salida es la que usó King, presentando primero a dos personajes en un desierto y ampliando el mundo de a poco, una estructura que el cineasta calificó de genial.
+
+El director describió el guion como bastante fiel a los libros, con cambios puntuales exigidos por el formato televisivo. Los guiones de la primera temporada ya están terminados y cuentan con la aprobación de King.
+
+## ¿Un universo conectado?
+
+Flanagan adquirió los derechos de *La Torre Oscura* en diciembre de 2022. Para el director, será su primera serie de fantasía y ciencia ficción, hasta ahora marcada por el terror. Medios especializados señalan que el final de *Carrie* hace referencia al "resplandor" de *El resplandor* y *Doctor Sueño* y trae una mención sutil a *La Torre Oscura*, lo que refuerza la teoría de un universo compartido entre las adaptaciones del autor.
+
+## Lo que falta
+
+Los medios consultados tratan el proyecto como una serie de Prime Video, la misma plataforma de *Carrie*. Todavía no hay fecha de estreno ni reparto anunciado.

@@ -1,77 +1,65 @@
-// Formatação de datas no fuso de Brasília (funciona igual no servidor e no navegador).
-const TZ = 'America/Sao_Paulo';
+// Formatação de datas por idioma (funciona igual no servidor e no navegador).
+import { getDictionary } from '@/lib/dictionaries';
+import { DEFAULT_LOCALE, LOCALE_INFO, type Locale } from '@/lib/i18n';
 
-const MONTHS = ['jan', 'fev', 'mar', 'abr', 'mai', 'jun', 'jul', 'ago', 'set', 'out', 'nov', 'dez'];
-
-function parts(iso: string) {
-  const d = new Date(iso);
+function parts(iso: string, timeZone: string) {
   const p = new Intl.DateTimeFormat('en-US', {
-    timeZone: TZ, year: 'numeric', month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit', hour12: false,
-  }).formatToParts(d);
+    timeZone, year: 'numeric', month: 'numeric', day: 'numeric', hour: '2-digit', minute: '2-digit', hour12: false,
+  }).formatToParts(new Date(iso));
   const get = (t: string) => Number(p.find((x) => x.type === t)?.value);
   return { y: get('year'), m: get('month'), d: get('day'), h: get('hour') % 24, min: get('minute') };
 }
 
-/** "21 out 2026, 18h32" */
-export function formatDateTime(iso: string) {
-  const p = parts(iso);
-  return `${p.d} ${MONTHS[p.m - 1]} ${p.y}, ${p.h}h${String(p.min).padStart(2, '0')}`;
+const tz = (locale: Locale) => LOCALE_INFO[locale].timeZone;
+const months = (locale: Locale) => getDictionary(locale).time.months;
+
+/** "21 out 2026, 18h32" / "21 oct 2026, 18:32" */
+export function formatDateTime(iso: string, locale: Locale = DEFAULT_LOCALE) {
+  const p = parts(iso, tz(locale));
+  return getDictionary(locale).time.dateTime(p.d, months(locale)[p.m - 1], p.y, p.h, String(p.min).padStart(2, '0'));
 }
 
 /** "21 out 2026" */
-export function formatDate(iso: string) {
-  const p = parts(iso);
-  return `${p.d} ${MONTHS[p.m - 1]} ${p.y}`;
+export function formatDate(iso: string, locale: Locale = DEFAULT_LOCALE) {
+  const p = parts(iso, tz(locale));
+  return `${p.d} ${months(locale)[p.m - 1]} ${p.y}`;
 }
 
 /** "18:32" */
-export function formatTime(iso: string) {
-  const p = parts(iso);
+export function formatTime(iso: string, locale: Locale = DEFAULT_LOCALE) {
+  const p = parts(iso, tz(locale));
   return `${String(p.h).padStart(2, '0')}:${String(p.min).padStart(2, '0')}`;
 }
 
 /** "23 OUT" a partir de "2026-10-23" */
-export function formatDay(date: string) {
+export function formatDay(date: string, locale: Locale = DEFAULT_LOCALE) {
   const [, m, d] = date.split('-').map(Number);
-  return `${d} ${MONTHS[m - 1].toUpperCase()}`;
+  return `${d} ${months(locale)[m - 1].toUpperCase()}`;
 }
 
-/** "quinta, 23 out" a partir de "2026-10-23" */
-export function formatWeekday(date: string) {
-  const [y, m, d] = date.split('-').map(Number);
-  const wd = ['domingo', 'segunda', 'terça', 'quarta', 'quinta', 'sexta', 'sábado'][new Date(Date.UTC(y, m - 1, d)).getUTCDay()];
-  return `${wd}, ${d} ${MONTHS[m - 1]}`;
-}
-
-/** "há 12 min", "há 3 h", "ontem", "há 4 dias" ou a data, para mais de uma semana. */
-export function timeAgo(iso: string, now = Date.now()) {
+/** "há 12 min" / "hace 12 min", "ontem" / "ayer", … ou a data, para mais de uma semana. */
+export function timeAgo(iso: string, locale: Locale = DEFAULT_LOCALE, now = Date.now()) {
+  const t = getDictionary(locale).time;
   const diff = Math.max(0, now - Date.parse(iso));
   const min = Math.floor(diff / 6e4);
-  if (min < 60) return `há ${Math.max(1, min)} min`;
+  if (min < 60) return t.minutes(Math.max(1, min));
   const h = Math.floor(min / 60);
-  if (h < 24) return `há ${h} h`;
+  if (h < 24) return t.hours(h);
   const days = Math.floor(h / 24);
-  if (days === 1) return 'ontem';
-  if (days < 7) return `há ${days} dias`;
-  return formatDate(iso);
+  if (days === 1) return t.yesterday;
+  if (days < 7) return t.days(days);
+  return formatDate(iso, locale);
 }
 
-/** Data de hoje em Brasília, "AAAA-MM-DD". */
+/** Data de hoje em Brasília, "AAAA-MM-DD" (o calendário de estreias usa datas do Brasil). */
 export function todayISO(now = Date.now()) {
-  const p = parts(new Date(now).toISOString());
+  const p = parts(new Date(now).toISOString(), LOCALE_INFO[DEFAULT_LOCALE].timeZone);
   return `${p.y}-${String(p.m).padStart(2, '0')}-${String(p.d).padStart(2, '0')}`;
 }
 
 export function addDays(date: string, n: number) {
   const [y, m, d] = date.split('-').map(Number);
   return new Date(Date.UTC(y, m - 1, d + n)).toISOString().slice(0, 10);
-}
-
-/** Quinta-feira que abre a semana de cinema (quinta a quarta) que contém a data. */
-export function cinemaWeekStart(date: string) {
-  const [y, m, d] = date.split('-').map(Number);
-  const wd = new Date(Date.UTC(y, m - 1, d)).getUTCDay();
-  return addDays(date, -((wd - 4 + 7) % 7));
 }
 
 /** Leitura estimada a partir do HTML. */

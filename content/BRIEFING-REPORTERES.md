@@ -33,7 +33,7 @@ Projeto: /home/gabriel/gabriel/projects/site-filmes. Hoje é 27/10/2026 (19h).
 
 ## Arquivos
 
-- Escreva em `content/noticias/AAAA-MM-DD-slug.md`, só com datas do seu período.
+- Escreva em `content/noticias/AAAA-MM-DD-slug/index.md` (uma pasta por notícia), só com datas do seu período.
 - Há outros repórteres em paralelo (o outro foco do mesmo mês e os outros meses). Fique no seu foco e, antes de criar
   cada arquivo, verifique com ls/grep se já existe notícia sobre o mesmo fato.
 - Não edite arquivos que você não criou. Não rode git. Não altere o código do site.
@@ -41,7 +41,7 @@ Projeto: /home/gabriel/gabriel/projects/site-filmes. Hoje é 27/10/2026 (19h).
 ## Validação (obrigatória)
 
 ```bash
-cd /home/gabriel/gabriel/projects/site-filmes && node scripts/validate-content.mjs --net content/noticias/AAAA-MM-*.md
+cd /home/gabriel/gabriel/projects/site-filmes && node scripts/validate-content.mjs --net content/noticias/AAAA-MM-*/index.md
 ```
 Corrija todos os erros nos **seus** arquivos até zerar (ignore erros de arquivos de outros repórteres).
 

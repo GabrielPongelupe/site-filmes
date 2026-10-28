@@ -1,0 +1,28 @@
+---
+title: "Woman Unknown, de la danesa May el-Toukhy, gana el León de Oro en Venecia"
+dek: "El drama ambientado en la Dinamarca de posguerra venció en la 83.ª edición del festival y también otorgó la Copa Volpi a la mejor actriz a Mathilde Arcel."
+imageAlt: "Imagen del teaser de la película danesa Woman Unknown (Kvinde ukendt)"
+videoTitle: "Teaser de Kvinde ukendt (Woman Unknown)"
+---
+
+El Festival de Venecia cerró su 83.ª edición este sábado (12) con una victoria de Dinamarca. *Woman Unknown*, dirigida por May el-Toukhy, obtuvo el León de Oro a la mejor película. La cineasta fue la única mujer que firmó sola la dirección de un título en la competencia principal de este año. El jurado estuvo presidido por la actriz y directora Maggie Gyllenhaal.
+
+## La película ganadora
+
+La trama sigue a Marie, una joven niñera y empleada doméstica que, después de la Segunda Guerra Mundial, se casa con su patrón, un viudo rico. Ella oculta un secreto peligroso: una relación con un soldado alemán durante la ocupación nazi. Cuando ese pasado amenaza con salir a la luz, la posición que ha conquistado corre peligro.
+
+La protagonista, Mathilde Arcel, también fue premiada, con la Copa Volpi a la mejor actriz. Al recibir el trofeo, dijo que era su primer papel principal en el cine y la primera vez que participaba en un festival.
+
+## Otros premiados
+
+- **León de Plata, Gran Premio del Jurado:** *Possible Love*, de Lee Chang-dong
+- **León de Plata a la dirección:** Ilya Khrzhanovsky, por *DAU*
+- **Premio Especial del Jurado:** *NAZA*, documental de Yuval Abraham y Rachel Szor
+- **Mejor actor (Copa Volpi):** John Malkovich, por *Wild Horse Nine*, que envió un mensaje en video
+- **Mejor guion:** *A Good Little Soldier*, de Stéphane Brizé, Coralie Amédéo y Olivier Gorce
+
+El León de Oro a la trayectoria fue para George Clooney y Ellen Burstyn. Según la cobertura de la prensa internacional, *NAZA* fue recibida con una ovación de 25 minutos en su estreno.
+
+## ¿Y en Brasil?
+
+Todavía no hay fecha de estreno anunciada en los cines brasileños para *Woman Unknown*.

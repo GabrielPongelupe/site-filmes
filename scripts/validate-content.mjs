@@ -30,6 +30,18 @@ function listMd(dir) {
   return fs.readdirSync(d).filter((f) => f.endsWith('.md')).map((f) => path.join(d, f));
 }
 
+/** Notícias: uma pasta por notícia, com index.md (pt-BR + metadados) e traduções <locale>.md. */
+function listNews() {
+  const d = path.join(root, 'content/noticias');
+  if (!fs.existsSync(d)) return [];
+  return fs.readdirSync(d, { withFileTypes: true })
+    .filter((e) => e.isDirectory() && fs.existsSync(path.join(d, e.name, 'index.md')))
+    .map((e) => path.join(d, e.name, 'index.md'))
+    .sort();
+}
+
+const TRANSLATIONS = ['es-ES', 'es-419'];
+
 function selected(files) {
   return only.length ? files.filter((f) => only.includes(f)) : files;
 }
@@ -97,13 +109,47 @@ async function checkSource(f, s) {
 }
 
 // ---------- notícias ----------
-const allNews = listMd('content/noticias');
+const allNews = listNews();
+// arquivos soltos no formato antigo (content/noticias/slug.md)
+for (const f of listMd('content/noticias')) err(f, 'formato antigo: mova para content/noticias/<slug>/index.md');
 const newsSlugs = new Set();
-for (const f of allNews) newsSlugs.add(path.basename(f, '.md'));
+for (const f of allNews) newsSlugs.add(path.basename(path.dirname(f)));
 
 const titlesSeen = new Map();
+const translationStats = Object.fromEntries(TRANSLATIONS.map((l) => [l, 0]));
+for (const index of allNews) {
+  for (const l of TRANSLATIONS) {
+    const tf = path.join(path.dirname(index), `${l}.md`);
+    if (!fs.existsSync(tf)) continue;
+    translationStats[l]++;
+    if (only.length && !only.includes(tf) && !only.includes(index)) continue;
+    checkTranslation(tf, index);
+  }
+}
+
+function checkTranslation(f, index) {
+  let t, base;
+  try { t = matter(fs.readFileSync(f, 'utf8')); } catch (e) { return err(f, `YAML inválido: ${e.message}`); }
+  try { base = matter(fs.readFileSync(index, 'utf8')).data; } catch { return; }
+  const allowed = ['title', 'dek', 'imageAlt', 'videoTitle', 'titles'];
+  for (const k of Object.keys(t.data)) if (!allowed.includes(k)) err(f, `campo "${k}" não pertence à tradução (só ${allowed.join(', ')})`);
+  str(f, t.data, 'title', { max: 130 });
+  str(f, t.data, 'dek', { max: 260 });
+  str(f, t.data, 'imageAlt');
+  if (base.video && !t.data.videoTitle) warn(f, '"videoTitle" recomendado (a notícia tem vídeo)');
+  if (t.data.titles !== undefined) {
+    const n = (base.titles ?? []).length;
+    if (!Array.isArray(t.data.titles) || t.data.titles.length !== n) err(f, `"titles" deve ser lista com ${n} nome(s), na mesma ordem do index.md`);
+    else if (t.data.titles.some((x) => typeof x !== 'string' || !x.trim())) err(f, '"titles": cada item deve ser texto');
+  }
+  const words = t.content.trim().split(/\s+/).filter(Boolean).length;
+  const baseWords = matter(fs.readFileSync(index, 'utf8')).content.trim().split(/\s+/).filter(Boolean).length;
+  if (words < baseWords * 0.7) err(f, `tradução curta demais (${words} palavras; original tem ${baseWords})`);
+  if (/^#\s/m.test(t.content)) err(f, 'não use título # no corpo (só ## em diante)');
+}
+
 for (const f of selected(allNews)) {
-  const slug = path.basename(f, '.md');
+  const slug = path.basename(path.dirname(f));
   const m = /^(\d{4}-\d{2}-\d{2})-(.+)$/.exec(slug);
   if (!m || !SLUG.test(m[2])) err(f, 'nome deve ser AAAA-MM-DD-slug (a-z0-9-)');
   let parsed;
@@ -217,5 +263,6 @@ if (checkSources) {
   console.log(`\nfontes: ${sourceStats.ok} ok · ${sourceStats.bloqueado} bloqueiam robôs (abrem no navegador) · ${sourceStats.quebrado} quebradas/inexistentes`);
 }
 for (const e of errors) console.log(`ERRO   ${e}`);
+console.log(`traduções: ${TRANSLATIONS.map((l) => `${l} ${translationStats[l]}/${allNews.length}`).join(' · ')}`);
 console.log(`\n${errors.length} erro(s), ${warnings.length} aviso(s). ${allNews.length} notícia(s) no total.${net ? '' : ' (sem --net: imagens/vídeos não testados)'}`);
 process.exit(errors.length ? 1 : 0);

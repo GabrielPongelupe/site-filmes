@@ -1,0 +1,24 @@
+---
+title: "Street Fighter se desploma un 72 % en su segundo fin de semana en EE. UU. y supera los 80 millones de dólares en el mundo"
+dek: "La adaptación del videojuego bajó al cuarto puesto con 8,6 millones de dólares y acumula 46,9 millones en el mercado interno, frente a un presupuesto reportado de 82 millones."
+imageAlt: "Escena del tráiler oficial subtitulado de Street Fighter"
+videoTitle: "Street Fighter | Tráiler oficial subtitulado"
+---
+
+La adaptación de **Street Fighter** sufrió una caída fuerte en su segundo fin de semana en cartelera. Entre el 23 y el 25 de octubre, la película de Paramount recaudó unos 8,6 millones de dólares en Estados Unidos y Canadá, un descenso del 72,1 % respecto al estreno, y pasó del primer al cuarto puesto de la taquilla.
+
+## Las cifras
+
+Con este resultado, la recaudación acumulada en el mercado interno llega a unos 46,9 millones de dólares. Rotten Tomatoes informa de que el total mundial supera los 80 millones. El presupuesto reportado es de unos 82 millones de dólares, lo que significa que la película todavía no ha cubierto su coste de producción, sin contar la campaña de marketing.
+
+## El estreno ya había quedado por debajo
+
+La caída confirma lo que ya se había visto en la apertura. En el fin de semana del 16 al 18 de octubre, el largometraje encabezó la taquilla estadounidense con unos 31 millones de dólares y sumó 51,1 millones en el mundo, por debajo de las expectativas del estudio, que apuntaba a algo cercano a los 70 millones globales, según la cobertura de la época. Una reducción de más de un 70 % suele indicar un boca a boca débil o una pérdida de público frente a los nuevos estrenos, y esta semana el título se enfrentó al estreno de *Clayface*.
+
+## En Brasil
+
+En el país, la película se estrenó el 15 de octubre y fue la segunda más vista en su primer fin de semana, con 5,69 millones de reales, detrás de *Verity*, según Omelete. En el ranking de ventas de Ingresso.com del 22 al 25 de octubre apareció en cuarto lugar. Las cifras oficiales brasileñas del segundo fin de semana todavía no se habían publicado en las fuentes consultadas.
+
+## El panorama general
+
+En conjunto, el fin de semana fue positivo para los cines estadounidenses: Fortune señala unos 94,9 millones de dólares en total, un aumento de casi un 22 % frente al mismo periodo de 2025, y el año acumula en torno a 8.400 millones de dólares, cerca de un 20 % por encima del año pasado.

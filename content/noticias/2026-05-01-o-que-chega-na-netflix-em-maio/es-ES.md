@@ -1,0 +1,29 @@
+---
+title: "Netflix en mayo: The Boroughs, Devil May Cry y el calentamiento para el Mundial"
+dek: "El mes trae una serie de los productores de Stranger Things, el regreso de un anime, documentales sobre el fútbol brasileño y una pelea en directo entre Ronda Rousey y Gina Carano."
+imageAlt: "Escena del tráiler oficial de The Boroughs, nueva serie de Netflix"
+titles: ["The Boroughs", "Devil May Cry"]
+---
+
+Netflix abre mayo con un catálogo que mezcla estrenos esperados, series que vuelven y mucho balón rodando antes del Mundial. Estas son las opciones que merecen ir a tu lista en Brasil.
+
+## Series y animes
+
+El gran nombre del mes es **The Boroughs**, que llega el 21 de mayo. La serie de ocho episodios es producida por los creadores de Stranger Things y reúne a un elenco de veteranos, entre ellos Alfred Molina, Geena Davis y Alfre Woodard, frente a una amenaza sobrenatural escondida en una comunidad de jubilados.
+
+Otros destacados:
+
+- **Devil May Cry**, temporada 2 (12 de mayo): el anime regresa con Dante cara a cara con su hermano gemelo, Vergil.
+- **Berlín y la dama de armiño** (15 de mayo): nueva aventura del universo de La Casa de Papel, con Pedro Alonso.
+- **Manual de asesinato para chicas buenas**, temporada 2 (27 de mayo).
+- **The Handmaid's Tale**, temporadas 1 a 6 completas, disponibles desde el 6 de mayo.
+
+## Fútbol y Mundial
+
+Con el Mundial de 2026 cada vez más cerca, la plataforma apuesta por la memoria y la emoción. El documental **Tetra: Volver a creer** (7 de mayo) revisita el título de 1994 con escenas inéditas de bastidores, y la miniserie **Brasil 70: La saga del tri** (29 de mayo) recrea la campaña de la selección en México, en plena dictadura militar. El 29 también se estrena **Rafa**, sobre el tenista Rafael Nadal.
+
+## En vivo y en cine
+
+El día 16, Netflix transmite en vivo la pelea entre Ronda Rousey y Gina Carano. En el catálogo de películas, la trilogía de John Wick y **Sr. y Sra. Smith** entran el 1 de mayo, y el cine brasileño aparece con **Estômago** (13 de mayo) y las películas de **Carrossel** (25 de mayo).
+
+Las fechas siguen el calendario publicado para Brasil y pueden sufrir ajustes por parte de la plataforma.

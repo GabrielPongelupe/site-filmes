@@ -1,0 +1,25 @@
+---
+title: "La serie de Harry Potter de HBO ya gastó £ 147 millones y podría costar más que cualquier película"
+dek: "Documentos financieros muestran £ 147,4 millones invertidos hasta finales de 2025, con la producción todavía a mitad del rodaje de la 1.ª temporada."
+imageAlt: "Imagen del teaser oficial de la serie Harry Potter y la piedra filosofal"
+videoTitle: "Harry Potter y la piedra filosofal: teaser oficial | HBO Max"
+titles: ["Harry Potter"]
+---
+
+La serie de **Harry Potter** de HBO ya consumió **£ 147,4 millones** (unos US$ 196,5 millones) hasta finales de 2025, según documentos financieros públicos citados por la prensa británica esta semana. El dato llama la atención porque, en ese momento, la producción estaba apenas a mitad del rodaje de la primera temporada.
+
+## De dónde salen las cifras
+
+Los valores aparecen en las cuentas de una empresa creada por HBO en el Reino Unido, Plum Jam Productions, que se usó para recuperar cerca de 25% de los gastos locales mediante un incentivo del gobierno británico. La información fue publicada originalmente por The Times y difundida por Deadline, The Tab y otros medios.
+
+## Podría superar a las películas
+
+Con postproducción y marketing, el costo de la primera temporada podría superar los US$ 250 millones, según estimaciones citadas por los medios. Eso colocaría el año de estreno por encima de la película más cara de la franquicia, *Harry Potter y el misterio del príncipe*, también estimada en unos US$ 250 millones. Es importante aclarar que HBO no ha divulgado el total oficial; se trata de proyecciones hechas a partir de las cuentas.
+
+Para comparar, las ocho películas juntas costaron unos US$ 1.155 millones y recaudaron aproximadamente US$ 7.700 millones en taquillas de todo el mundo.
+
+## Estreno y formato
+
+La primera temporada adapta *Harry Potter y la piedra filosofal* y se estrena en **HBO Max** el 25 de diciembre de 2026. El plan es dedicar una temporada a cada libro, con siete en total. El elenco incluye a John Lithgow como Dumbledore, Paapa Essiedu como Snape, Janet McTeer como McGonagall y Nick Frost como Hagrid.
+
+Para el público brasileño, la fecha de Navidad pone a la serie entre las grandes apuestas del streaming para el final del año.

@@ -1,0 +1,24 @@
+---
+title: "VisionQuest se estrena mañana en Disney+ y cierra la trilogía iniciada con WandaVision"
+dek: "La serie de Marvel con Paul Bettany y James Spader tiene ocho episodios y empieza a emitirse el 14 de octubre, con capítulos semanales."
+imageAlt: "Vision, interpretado por Paul Bettany, en una escena de VisionQuest"
+videoTitle: "VisionQuest: tráiler oficial doblado"
+---
+
+Ha llegado la hora de reencontrarse con Visión. **VisionQuest**, nueva serie de Marvel Television, se estrena el miércoles (14) en Disney+, con episodios semanales los días 14, 21 y 28 de octubre, según el calendario de la plataforma en Brasil. Son ocho capítulos en total.
+
+## La historia
+
+La trama sigue al personaje de Paul Bettany, que intenta recuperar la memoria y la humanidad después de haber sido asesinado por Thanos en *Avengers: Infinity War*. Según la descripción difundida, recuperó sus recuerdos sin haberlos vivido realmente y ahora busca entender quién es, ya que no tiene las emociones del Visión original. En ese camino, Disney+ indica que debe escapar de una captura y enfrentar la influencia de Ultrón.
+
+## Reparto
+
+James Spader regresa como Ultrón. Ruaridh Mollica interpreta a Tommy Maximoff, T'Nia Miller encarna a Jocasta, y voces conocidas vuelven como las inteligencias artificiales: James D'Arcy como J.A.R.V.I.S., Emily Hampshire como E.D.I.T.H. y Orla Brady como F.R.I.D.A.Y. El elenco incluye además a Todd Stashwick, Lauren Morais, Faran Tahir, Henry Lewis y Jonathan Sayer, además de Diane Morgan, Mary McDonell y Cristian Lavin en papeles aún no revelados.
+
+## Cierre de una trilogía
+
+La serie cierra una trilogía de producciones televisivas de Marvel que empezó con *WandaVision*, en 2021, y pasó por *Agatha All Along*, en 2024. El primer material mostrado al mercado, en mayo, ya indicaba el reencuentro entre Visión y Ultrón y las conexiones con las dos series anteriores.
+
+## Cómo verla
+
+Disney+ liberó el tráiler oficial doblado al portugués, y la serie entra en el catálogo brasileño junto con otros estrenos del mes, como *Verdade Oculta* y *Fingida*. Quien quiera revisar el comienzo de la historia puede ver antes *WandaVision* y *Agatha All Along*, que siguen disponibles en la plataforma. El estreno es uno de los puntos altos del calendario de series de octubre.

@@ -1,4 +1,6 @@
 // Tipos e funções puras do conteúdo, seguros para componentes de cliente (sem acesso a disco).
+import { getDictionary } from '@/lib/dictionaries';
+import { DEFAULT_LOCALE, type Locale } from '@/lib/i18n';
 
 export type Category = 'filmes' | 'series' | 'streaming';
 export type Kind = 'noticia' | 'trailer' | 'bilheteria' | 'critica';
@@ -21,6 +23,8 @@ export type NewsMeta = {
   featured: boolean;
   /** visualizações (simuladas, ver lib/views.ts) */
   views: number;
+  /** false quando a notícia ainda não tem tradução para o idioma pedido (mostra o original) */
+  translated: boolean;
 };
 
 export type News = NewsMeta & {
@@ -59,9 +63,6 @@ export type StreamingRelease = {
   poster?: string;
 };
 
-export const CATEGORY_LABEL: Record<Category, string> = { filmes: 'Filmes', series: 'Séries', streaming: 'Streaming' };
-export const KIND_LABEL: Record<Kind, string> = { noticia: 'Notícias', trailer: 'Trailers', bilheteria: 'Bilheteria', critica: 'Críticas' };
-
 export function slugify(s: string) {
   return s
     .normalize('NFD')
@@ -71,12 +72,21 @@ export function slugify(s: string) {
     .replace(/^-+|-+$/g, '');
 }
 
+export function categoryLabel(c: Category, locale: Locale = DEFAULT_LOCALE) {
+  return getDictionary(locale).category[c];
+}
+
+export function kindLabel(k: Kind, locale: Locale = DEFAULT_LOCALE) {
+  return getDictionary(locale).kind[k];
+}
+
 /** Rótulo curto que aparece acima do título (ex.: FILMES, TRAILER, CRÍTICA). */
-export function kicker(n: Pick<NewsMeta, 'category' | 'kind'>) {
-  if (n.kind === 'trailer') return 'TRAILER';
-  if (n.kind === 'critica') return 'CRÍTICA';
-  if (n.kind === 'bilheteria') return 'BILHETERIA';
-  return CATEGORY_LABEL[n.category].toUpperCase();
+export function kicker(n: Pick<NewsMeta, 'category' | 'kind'>, locale: Locale = DEFAULT_LOCALE) {
+  const k = getDictionary(locale).kicker;
+  if (n.kind === 'trailer') return k.trailer;
+  if (n.kind === 'critica') return k.critica;
+  if (n.kind === 'bilheteria') return k.bilheteria;
+  return k[n.category];
 }
 
 export type SearchEntry = { slug: string; title: string; dek: string; date: string; kicker: string; tags: string[]; titles: string[]; image: string };

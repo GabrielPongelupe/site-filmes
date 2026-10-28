@@ -1,0 +1,27 @@
+---
+title: "\"No estábamos preparados\": Travis Knight cuenta cómo Laika construyó el águila gigante de Wildwood"
+dek: "En una entrevista con SlashFilm, el director explica por qué el ave está hecha de tela, cómo añadieron músculos a los muñecos y qué le exigió la producción al estudio."
+imageAlt: "Imagen del tráiler final de Wildwood, de Laika"
+videoTitle: "Wildwood: tráiler final"
+titles: ["Wildwood"]
+---
+
+El director **Travis Knight** detalló los bastidores de **Wildwood**, la sexta película de animación en stop-motion de Laika, en una entrevista con SlashFilm publicada el 22 de octubre. La película está en cartelera en Estados Unidos.
+
+## "Tuvimos que crecer y sufrir"
+
+Knight admite que el estudio se enfrentó a un proyecto más grande de lo que sabía hacer. "No estábamos listos, y tuvimos que crecer, aprender y sufrir en el proceso", dijo a SlashFilm. La película es su segundo trabajo en stop-motion, diez años después de *Kubo and the Two Strings*, y llega tras sus películas live-action *Bumblebee* y *Masters of the Universe*.
+
+## La tecnología como herramienta
+
+Sobre el uso de la computación, el director sostiene que es solo un instrumento más, "como un lápiz, un pincel o una impresora 3D". Laika ya mezcla muñecos físicos y recursos digitales desde hace años, y la batalla final de *Wildwood* combina escenarios a escala real, maquetas, muñecos, efectos visuales y muñecos digitales.
+
+## El águila gigante
+
+Uno de los destacados es **El General**, el ave enorme de la película. Según Knight, es "básicamente un Slinky que se mueve". El cuerpo se hizo principalmente de tela, porque la silicona sería demasiado pesada para animarla. Los muñecos humanos también recibieron músculos para parecer más vivos: la idea, contó, era preguntarse si no sería genial que los personajes parecieran plenamente vivos.
+
+## Historia y clasificación
+
+Laika adquirió los derechos de la historia en 2011. La película sigue a una niña que entra en un mundo mágico para rescatar a su hermano menor secuestrado, y la colaboración creativa es con **Chris Butler**. Knight defendió la clasificación PG-13 y dijo que la violencia aparece para mostrar el costo de los actos, no para glorificarlos.
+
+*Wildwood* tuvo un estreno con excelente recepción crítica y una taquilla floja en Estados Unidos, como informó Spoilado. La entrevista no menciona planes futuros del estudio.

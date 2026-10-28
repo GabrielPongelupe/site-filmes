@@ -1,9 +1,12 @@
 'use client';
 
 import { useState } from 'react';
+import { getDictionary } from '@/lib/dictionaries';
+import type { Locale } from '@/lib/i18n';
 
-export function ShareButtons() {
+export function ShareButtons({ l }: { l: Locale }) {
   const [copied, setCopied] = useState(false);
+  const t = getDictionary(l).article;
 
   const url = () => window.location.href;
 
@@ -21,7 +24,7 @@ export function ShareButtons() {
           }
         }}
       >
-        {copied ? 'Link copiado!' : 'Copiar link'}
+        {copied ? t.copied : t.copy}
       </button>
     </div>
   );

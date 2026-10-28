@@ -3,92 +3,93 @@ import { Media } from '@/components/Media';
 import { TimeAgo } from '@/components/TimeAgo';
 import { Views } from '@/components/Views';
 import { kicker, type NewsMeta } from '@/lib/content-shared';
-import { routes } from '@/lib/data';
+import { getDictionary } from '@/lib/dictionaries';
+import { paths, type Locale } from '@/lib/i18n';
 
-type P = { n: NewsMeta };
+type P = { n: NewsMeta; l: Locale };
 
-export function SideCard({ n }: P) {
+export function SideCard({ n, l }: P) {
   return (
-    <Link href={routes.noticia(n.slug)} className="side-card">
+    <Link href={paths(l).noticia(n.slug)} className="side-card">
       <Media src={n.image.src} alt={n.image.alt} variant="thumb" className="side-card__img">
-        <Views n={n.views} overlay />
+        <Views n={n.views} l={l} overlay />
       </Media>
       <div className="side-card__body">
-        <span className="kicker">{kicker(n)}</span>
+        <span className="kicker">{kicker(n, l)}</span>
         <h3>{n.title}</h3>
         <span className="meta-muted">
-          <TimeAgo date={n.date} />
+          <TimeAgo date={n.date} l={l} />
         </span>
       </div>
     </Link>
   );
 }
 
-export function FeedItem({ n }: P) {
+export function FeedItem({ n, l }: P) {
   return (
-    <Link href={routes.noticia(n.slug)} className="feed-item">
+    <Link href={paths(l).noticia(n.slug)} className="feed-item">
       <Media src={n.image.src} alt={n.image.alt} variant="sm" className="feed-item__img">
-        <Views n={n.views} overlay />
+        <Views n={n.views} l={l} overlay />
       </Media>
       <div className="feed-item__body">
-        <span className="kicker">{kicker(n)}</span>
+        <span className="kicker">{kicker(n, l)}</span>
         <h3>{n.title}</h3>
         <p>{n.dek}</p>
         <span className="meta">
-          <TimeAgo date={n.date} />
+          <TimeAgo date={n.date} l={l} />
         </span>
       </div>
     </Link>
   );
 }
 
-export function NewsCard({ n }: P) {
+export function NewsCard({ n, l }: P) {
   return (
-    <Link href={routes.noticia(n.slug)} className="news-card">
+    <Link href={paths(l).noticia(n.slug)} className="news-card">
       <Media src={n.image.src} alt={n.image.alt} variant="sm" className="news-card__img">
-        <Views n={n.views} overlay />
+        <Views n={n.views} l={l} overlay />
       </Media>
-      <span className="kicker">{kicker(n)}</span>
+      <span className="kicker">{kicker(n, l)}</span>
       <h3>{n.title}</h3>
       <span className="meta">
-        <TimeAgo date={n.date} />
+        <TimeAgo date={n.date} l={l} />
       </span>
     </Link>
   );
 }
 
-export function ListItem({ n }: P) {
+export function ListItem({ n, l }: P) {
   return (
-    <Link href={routes.noticia(n.slug)} className="cat-lead__item">
-      <span className="kicker">{kicker(n)}</span>
+    <Link href={paths(l).noticia(n.slug)} className="cat-lead__item">
+      <span className="kicker">{kicker(n, l)}</span>
       <h3>{n.title}</h3>
       <span className="meta">
-        <TimeAgo date={n.date} />
+        <TimeAgo date={n.date} l={l} />
       </span>
     </Link>
   );
 }
 
-export function RelatedItem({ n }: P) {
+export function RelatedItem({ n, l }: P) {
   return (
-    <Link href={routes.noticia(n.slug)} className="related-item">
+    <Link href={paths(l).noticia(n.slug)} className="related-item">
       <Media src={n.image.src} alt={n.image.alt} variant="sm" className="related-item__img">
-        <Views n={n.views} overlay />
+        <Views n={n.views} l={l} overlay />
       </Media>
       <div className="related-item__body">
-        <span className="kicker">{kicker(n)}</span>
+        <span className="kicker">{kicker(n, l)}</span>
         <span className="related-item__title">{n.title}</span>
         <span className="meta">
-          <TimeAgo date={n.date} />
+          <TimeAgo date={n.date} l={l} />
         </span>
       </div>
     </Link>
   );
 }
 
-export function TrailerCard({ n }: P) {
+export function TrailerCard({ n, l }: P) {
   return (
-    <Link href={routes.noticia(n.slug)} className="trailer-card">
+    <Link href={paths(l).noticia(n.slug)} className="trailer-card">
       <Media
         src={n.video ? `https://i.ytimg.com/vi/${n.video.youtube}/hqdefault.jpg` : n.image.src}
         alt={n.image.alt}
@@ -96,26 +97,26 @@ export function TrailerCard({ n }: P) {
         className="trailer-card__thumb"
       >
         <span className="play" aria-hidden="true">▶</span>
-        <span className="duration">TRAILER</span>
-        <Views n={n.views} overlay />
+        <span className="duration">{getDictionary(l).kicker.trailer}</span>
+        <Views n={n.views} l={l} overlay />
       </Media>
       <h3>{n.title}</h3>
-      <TimeAgo date={n.date} className="trailer-card__plat" />
+      <TimeAgo date={n.date} l={l} className="trailer-card__plat" />
     </Link>
   );
 }
 
 /** Lista numerada da lateral ("Mais lidas"). */
-export function Highlights({ items, boxed = false }: { items: NewsMeta[]; boxed?: boolean }) {
+export function Highlights({ items, l, boxed = false }: { items: NewsMeta[]; l: Locale; boxed?: boolean }) {
   return (
     <div className={`most-read ${boxed ? 'card' : ''}`}>
-      <h3 className="display">Mais lidas</h3>
+      <h3 className="display">{getDictionary(l).mostRead}</h3>
       {items.map((n, i) => (
-        <Link key={n.slug} href={routes.noticia(n.slug)} className="most-read__item">
+        <Link key={n.slug} href={paths(l).noticia(n.slug)} className="most-read__item">
           <span className="most-read__n">{i + 1}</span>
           <span className="most-read__title">
             {n.title}
-            <Views n={n.views} />
+            <Views n={n.views} l={l} />
           </span>
         </Link>
       ))}

@@ -1,0 +1,24 @@
+---
+title: "¿Hiedra Venenosa tendrá serie en HBO? La showrunner de *The Penguin* negocia para producirla"
+dek: "Según Deadline, el proyecto está en fase inicial en DC Studios; sin guionista, sin reparto y sin encargo oficial. HBO no comentó."
+imageAlt: "Colin Farrell, protagonista de The Penguin, serie de HBO vinculada al universo de Batman"
+titles: ["Poison Ivy", "The Penguin"]
+---
+
+**Rumor basado en una nota de la prensa especializada:** una serie live-action de **Hiedra Venenosa** estaría en desarrollo en HBO con DC Studios. La información la publicó primero **Deadline**, que dice que **Lauren LeFranc**, showrunner de *The Penguin*, negocia para actuar como productora. HBO se negó a comentar, y el proyecto no tiene encargo oficial.
+
+## Lo que se ha reportado
+
+Según lo que informan los sitios, la idea está en una etapa inicial. No hay guionista ni actriz definida para interpretar al personaje, y LeFranc sería considerada como productora, no como showrunner. Uno de los sitios que se hicieron eco de la noticia la describió como showrunner, versión que contradice a la mayoría de los medios; Spoilado adopta la más repetida, la de productora. Según Hypebeast, *The Hollywood Reporter* también confirmó que la serie está en desarrollo.
+
+## Fuera del universo de Batman de Matt Reeves
+
+Según los relatos, la serie quedaría fuera del universo de *The Batman*, de Matt Reeves. Es decir, no compartiría continuidad con las películas ni con el Oz Cobb de Colin Farrell. *The Penguin*, que se estrenó en 2024 con muy buena recepción y ganó nueve premios Emmy en 2025, es la referencia de tono que HBO tendría en mente al buscar a LeFranc.
+
+## ¿Cuándo llega?
+
+Nada está definido. Sin guion, reparto ni fecha, todavía es pronto para saber si el proyecto llegará a convertirse en una serie. Hiedra Venenosa, personaje clásico de Batman, ya tuvo versiones en cine y animación, pero nunca protagonizó una serie propia en live-action, lo que explica el interés de los fans.
+
+## Cómo seguirlo en Brasil
+
+*The Penguin* está disponible en HBO Max, donde la nueva serie debería entrar si se confirma. Por ahora, conviene tomarlo como información de bastidores: el estudio no anunció nada, y negociaciones de este tipo pueden cambiar o abandonarse antes de cualquier encargo oficial.

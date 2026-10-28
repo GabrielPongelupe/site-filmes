@@ -1,0 +1,26 @@
+---
+title: "El documental sobre Elizabeth Holmes sube un 25 % en su segundo fin de semana y suma US$ 45 millones en EE. UU."
+dek: "La película de Nathan Fielder pasó de 855 a 2.655 salas, recaudó US$ 19,5 millones y casi le quitó el liderato a Clayface. En Brasil se estrena el 26 de noviembre."
+imageAlt: "Imagen del tráiler oficial de You Can See Everything, documental de A24"
+videoTitle: "You Can See Everything | Tráiler oficial (A24)"
+---
+
+El documental ***You Can See Everything*** (*Tudo Pode Ser Visto* en Brasil), de A24, fue uno de los temas del fin de semana del 23 al 25 de octubre en los cines estadounidenses. En su segundo fin de semana, el filme sobre Elizabeth Holmes, la fundadora de Theranos, recaudó unos US$ 19,5 millones, un 25 % más que en su estreno, y quedó en segundo lugar en taquilla.
+
+## Expansión grande
+
+En su estreno, la película abrió con unos US$ 15,6 millones en solo 855 salas, una cifra alta para un documental. Ahora, la distribuidora la llevó a 2.655 cines, y la apuesta funcionó. El total nacional llegó a unos US$ 45,1 millones en diez días de exhibición, lo que, según cobertura de Rotten Tomatoes, ubica al título entre los documentales más taquilleros de la historia de EE. UU. Fortune informa que el presupuesto fue de aproximadamente US$ 7 millones.
+
+## Casi en el primer puesto
+
+La diferencia con el primer lugar, *Clayface*, fue de menos de US$ 5 millones. Fortune destaca que la película estuvo cerca de robar el liderato a un estreno de DC, a pesar de durar casi tres horas, lo que limita el número de funciones por día.
+
+## La película
+
+La producción es de Nathan Fielder y Lance Oppenheim, y revisita el auge y la caída de la empresa de análisis de sangre que prometía revolucionar la medicina y terminó en escándalo y en la condena de su fundadora.
+
+## Cuándo llega a Brasil
+
+En Brasil, el filme será la clausura de la 50.ª Mostra Internacional de Cine de São Paulo, en una función de gala el 29 de octubre, en el Teatro Cultura Artística. El estreno en el circuito comercial brasileño está previsto para el 26 de noviembre, según CNN Brasil.
+
+Vale recordar que el documental ya había quedado en segundo lugar el fin de semana anterior, detrás de *Street Fighter*, cuando sorprendió al recaudar mucho en pocas salas.

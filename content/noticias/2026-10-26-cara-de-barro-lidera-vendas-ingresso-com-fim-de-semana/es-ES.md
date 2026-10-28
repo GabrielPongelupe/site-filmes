@@ -1,0 +1,25 @@
+---
+title: "Clayface lidera las ventas de Ingresso.com el fin de semana; Vengadores: Doomsday ya aparece en 3.º lugar, solo en preventa"
+dek: "El ranking de las películas más vendidas del jueves (22) al domingo (25) incluye también Verity, Street Fighter y Daniel and the Blazing Furnace entre los cinco primeros."
+imageAlt: "Escena del tráiler final oficial de Clayface"
+---
+
+El ranking de ventas de **Ingresso.com** para el período del jueves (22) al domingo (25) colocó a *Clayface* en primer lugar. La lista considera solo las entradas vendidas por el sitio y la aplicación de la plataforma, no la taquilla oficial de todas las salas del país. La empresa no divulgó cifras de público ni de recaudación.
+
+## Los cinco primeros
+
+1. **Clayface**: el terror de DC se estrenó el jueves (22) y sigue a un actor que se convierte en una criatura de arcilla tras un experimento que sale mal.
+2. **Verity**: el thriller de obsesión y manipulación, basado en Colleen Hoover, que encabezó la taquilla brasileña durante tres semanas seguidas, según Omelete.
+3. ***Avengers: Doomsday***: aún en preventa, ya aparece entre los más vendidos.
+4. **Street Fighter**: la adaptación del videojuego, que se estrenó el 15 de octubre.
+5. ***Daniel and the Blazing Furnace***: drama ambientado en la antigua Babilonia, sobre cuatro exiliados judíos que deben mantener su fe bajo amenaza de muerte.
+
+## Contexto
+
+En la semana anterior (del 15 al 18 de octubre), la taquilla oficial divulgada por Omelete mostró a *Verity* en primer lugar, con R$ 5,99 millones, y a *Street Fighter* en segundo, con R$ 5,69 millones. Un ranking de ventas de una sola plataforma no permite comparar valores con esas cifras, pero sí indica la preferencia del público al inicio de la semana de estreno.
+
+Que *Avengers: Doomsday* aparezca entre los tres más vendidos, con las entradas todavía en preventa, muestra la fuerza de la película de los Vengadores antes de su lanzamiento en diciembre. La fecha de estreno en los cines brasileños que cita Omelete es el 17 de diciembre.
+
+## El calendario del cine brasileño
+
+Vale recordar que la semana de cine en el país comienza los jueves, cuando los grandes estrenos llegan a las salas. Los datos oficiales de público y recaudación del fin de semana del 22 al 25 de octubre no estaban disponibles en las fuentes consultadas hasta la publicación de esta nota.

@@ -5,7 +5,10 @@ No build, o Next.js lê esses arquivos e gera as páginas.
 
 ```
 content/
-  noticias/<slug>.md        uma notícia por arquivo
+  noticias/<slug>/index.md  uma notícia por pasta: original pt-BR + metadados
+  noticias/<slug>/es-ES.md  tradução para espanhol da Espanha (ver BRIEFING-TRADUTORES.md)
+  noticias/<slug>/es-419.md tradução para espanhol latino-americano
+  titulos-es.json           nomes de filmes/séries: original, es-ES e es-419
   titulos/<slug>.md         ficha de filme/série
   calendario/cinema.json    estreias nos cinemas (Brasil)
   calendario/streaming.json estreias no streaming (Brasil)
@@ -16,17 +19,19 @@ Valide sempre depois de editar:
 ```bash
 node scripts/validate-content.mjs              # tudo, sem rede
 node scripts/validate-content.mjs --net        # também testa imagens e vídeos
-node scripts/validate-content.mjs --net content/noticias/2026-05-*.md   # só alguns arquivos
+node scripts/validate-content.mjs --net content/noticias/2026-05-*/*.md   # só alguns arquivos
 node scripts/validate-content.mjs --fontes      # abre os links das fontes (ok / bloqueia robôs / quebrada)
 ```
 
 ---
 
-## Notícias — `content/noticias/<slug>.md`
+## Notícias — `content/noticias/<slug>/index.md`
 
-**Slug / nome do arquivo:** `AAAA-MM-DD-titulo-curto-sem-acentos.md`
+**Slug / nome da pasta:** `AAAA-MM-DD-titulo-curto-sem-acentos/` com o arquivo `index.md` dentro
 (data da publicação + 3 a 8 palavras em minúsculas, separadas por hífen, só `a-z0-9-`).
-Ex.: `2026-05-14-duna-parte-tres-ganha-trailer.md`
+Ex.: `2026-05-14-duna-parte-tres-ganha-trailer/index.md`.
+Toda notícia nova precisa também das traduções `es-ES.md` e `es-419.md` (ver `BRIEFING-TRADUTORES.md`);
+sem elas, as versões em espanhol mostram o texto em português.
 
 ```markdown
 ---

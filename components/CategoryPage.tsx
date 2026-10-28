@@ -4,7 +4,8 @@ import { CategoryFeed } from '@/components/CategoryFeed';
 import { Media } from '@/components/Media';
 import { ListItem } from '@/components/NewsCards';
 import { meta, type News } from '@/lib/content';
-import { routes } from '@/lib/data';
+import { getDictionary } from '@/lib/dictionaries';
+import { paths, type Locale } from '@/lib/i18n';
 
 type Props = {
   eyebrow: string;
@@ -12,10 +13,12 @@ type Props = {
   items: News[];
   intro?: string;
   filters?: boolean;
+  l: Locale;
 };
 
 // Página de listagem (categorias, tags, críticas, bilheteria…): destaque + 3 manchetes + grade paginada.
-export function CategoryPage({ eyebrow, name, items, intro, filters = true }: Props) {
+export function CategoryPage({ eyebrow, name, items, intro, filters = true, l }: Props) {
+  const t = getDictionary(l);
   const lead = items.find((n) => n.featured) ?? items[0];
   const side = items.filter((n) => n !== lead).slice(0, 3);
   const rest = items.filter((n) => n !== lead && !side.includes(n));
@@ -33,14 +36,14 @@ export function CategoryPage({ eyebrow, name, items, intro, filters = true }: Pr
       {lead ? (
         <>
           <section className="cat-lead">
-            <Link href={routes.noticia(lead.slug)} className="cat-lead__main">
+            <Link href={paths(l).noticia(lead.slug)} className="cat-lead__main">
               <Media src={lead.image.src} alt={lead.image.alt} className="cat-lead__img" eager />
-              <span className="kicker">DESTAQUE</span>
+              <span className="kicker">{t.list.featured}</span>
               <h2>{lead.title}</h2>
             </Link>
             <div className="cat-lead__list">
               {side.map((n) => (
-                <ListItem key={n.slug} n={meta(n)} />
+                <ListItem key={n.slug} n={meta(n)} l={l} />
               ))}
             </div>
           </section>
@@ -48,14 +51,14 @@ export function CategoryPage({ eyebrow, name, items, intro, filters = true }: Pr
           {rest.length > 0 && (
             <>
               <div className="ad-row">
-                <Ad size="970x90" />
+                <Ad size="970x90" l={l} />
               </div>
-              <CategoryFeed items={rest.map(meta)} filters={filters} />
+              <CategoryFeed items={rest.map(meta)} filters={filters} l={l} />
             </>
           )}
         </>
       ) : (
-        <p className="empty">Nenhuma notícia por aqui ainda.</p>
+        <p className="empty">{t.feed.empty}</p>
       )}
     </main>
   );

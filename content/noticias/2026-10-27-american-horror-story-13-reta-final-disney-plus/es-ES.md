@@ -1,0 +1,25 @@
+---
+title: "American Horror Story: 13 llega a la recta final en Disney+ con Jessica Lange y Sarah Paulson"
+dek: "La temporada de 13 episodios cortos, ligada a Coven, estrena sus últimos capítulos esta semana en la plataforma."
+imageAlt: "Imagen del tráiler oficial de la temporada 13 de American Horror Story"
+videoTitle: "American Horror Story: 13, tráiler oficial"
+titles: ["American Horror Story: 13", "American Horror Story: Coven"]
+---
+
+La temporada 13 de **American Horror Story** llega a su final en Disney+, donde se emite en exclusiva en Brasil. El estreno fue el 24 de septiembre, con tres episodios de golpe, y los siguientes se han publicado semanalmente los jueves y viernes.
+
+## Fechas del final
+
+Los episodios 11 y 12 se publicaron el 22 de octubre. En cuanto al capítulo 13, las fuentes no coinciden: un calendario publicado en septiembre señala el 29 de octubre, mientras que otros medios hablan del 30 de octubre, a la 1h de la madrugada (hora de Brasilia). Conviene consultar el horario en la aplicación.
+
+## Reparto
+
+La temporada tiene 13 episodios de unos 30 minutos y conecta el universo de la antología de Ryan Murphy con *Coven*. Jessica Lange retoma cuatro personajes, Sarah Paulson seis y Evan Peters cinco. Emma Roberts vuelve como Madison Montgomery, Angela Bassett como Marie Laveau y Jamie Brewer como Adelaide Langdon.
+
+## Contexto
+
+La tanda corta llega con la antología ya renovada para la 14.ª temporada, una noticia que Spoilado publicó la semana pasada. Quien quiera volver al ambiente de la temporada puede ver el tráiler completo difundido por FX.
+
+Atención: el texto no incluye detalles de la trama y evita spoilers del desenlace.
+
+El tráiler completo, publicado por el canal de FX, está en el video de esta página y sirve de aperitivo para quienes todavía no han empezado la temporada.

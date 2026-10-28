@@ -1,0 +1,29 @@
+---
+title: "Gramado 2026: Nosso Segredo gana el Kikito a mejor película y Feito Pipa domina la premiación"
+dek: "El 54.º Festival de Cine de Gramado terminó el 22 de agosto con el largometraje de Grace Passô en la cima y la película cearense de Allan Deberton como la más premiada."
+imageAlt: "Escena del tráiler oficial de Nosso Segredo, de Grace Passô"
+---
+
+El 54.º Festival de Cine de Gramado, realizado del 12 al 22 de agosto en la sierra gaúcha (Río Grande del Sur), entregó sus Kikitos el sábado 22. El premio principal a mejor película fue para *Nosso Segredo*, de Grace Passô, mientras que *Feito Pipa*, de Allan Deberton, fue el gran ganador en cantidad de trofeos.
+
+## Los principales ganadores
+
+- **Mejor película:** *Nosso Segredo* (Grace Passô)
+- **Mejor dirección:** Allan Deberton, por *Feito Pipa*
+- **Mejor actriz:** Teca Pereira, por *Feito Pipa*
+- **Mejor actor:** José Loreto (*Chorão: Só os Loucos Sabem*) y Christian Malheiros (*Justino: Nos Bastidores do Reino*), en premio compartido
+- **Mejor guion:** Carlos Segundo y Rafael Copel, por *Leite em Pó*
+- **Mejor fotografía:** Wilssa Esser, por *Nosso Segredo*
+- **Mejor montaje:** André Finotti y José Eduardo Belmonte, por *Justino: Nos Bastidores do Reino*
+
+*Feito Pipa* también se llevó el premio del jurado popular, y *Leite em Pó* obtuvo el trofeo del jurado de la crítica. La cuenta exacta de Kikitos de la película cearense varía entre cuatro y cinco, según cómo cada medio cuente menciones y premios paralelos, pero todos la señalan como la más premiada de la edición.
+
+## Berlín y los estrenos
+
+*Nosso Segredo* y *Feito Pipa* pasaron antes por el Festival de Berlín. El primero llega a los cines brasileños el 27 de agosto; el segundo, el 5 de noviembre. Para Deberton, la victoria repite el desempeño de hace siete años, cuando *Pacarrete* fue la gran figura del festival.
+
+## Justino y el cine de Brasilia
+
+*Justino: Nos Bastidores do Reino*, de José Eduardo Belmonte, fue premiada por montaje y actuación. La película adapta el libro de Mário Justino y sigue a un joven de la periferia que ve en una iglesia neopentecostal un camino de ascenso. La producción es de Mercado Filmes, de Brasilia, y todavía no tiene fecha de estreno anunciada.
+
+La competencia de largometrajes de Gramado tuvo seis ficciones inéditas, seleccionadas por Marcos Santuário, Ana Flávia Cavalcanti y Camila Morgado. Para quien sigue el cine nacional, el festival sigue siendo la principal vitrina de estrenos del segundo semestre.

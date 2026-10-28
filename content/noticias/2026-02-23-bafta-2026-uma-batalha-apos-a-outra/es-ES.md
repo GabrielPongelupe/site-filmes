@@ -1,0 +1,27 @@
+---
+title: "BAFTA 2026: One Battle After Another se lleva la mejor película y seis premios"
+dek: "La ceremonia en Londres también premió a Jessie Buckley, Robert Aramayo y Wunmi Mosaku, y dio tres estatuillas a *Sinners*."
+imageAlt: "Escena del tráiler oficial de One Battle After Another"
+titles: ["One Battle After Another", "Hamnet"]
+---
+
+La 79.ª edición de los British Academy Film Awards se celebró la noche del domingo (22) en el Royal Festival Hall, en Londres, con presentación de Alan Cumming. El gran ganador fue **One Battle After Another**, de Paul Thomas Anderson, que se llevó el premio a mejor película y cerró la noche con seis estatuillas, entre ellas la de dirección y la de guion adaptado. La película llegó a la ceremonia como líder de nominaciones, con 14.
+
+## Los principales ganadores
+
+- **Mejor película:** One Battle After Another
+- **Dirección:** Paul Thomas Anderson
+- **Actriz:** Jessie Buckley, por *Hamnet*
+- **Actor:** Robert Aramayo, por *I Swear*
+- **Actriz de reparto:** Wunmi Mosaku, por *Sinners*
+- **Película británica:** *Hamnet*
+- **Película en idioma no inglés:** *Sentimental Value*
+- **Infantil y familiar:** *Boong*, animación india
+
+## Sorpresas y récords
+
+Robert Aramayo hizo historia al ganar, en la misma noche, el premio a mejor actor y el EE Rising Star, el voto del público para nuevos talentos. *Sinners*, que tenía 13 nominaciones, salió con tres premios, entre ellos el de guion original y el de actriz de reparto para Mosaku. El triunfo de *Boong* fue señalado como un momento inédito para el cine indio en la premiación. La ejecutiva Donna Langley recibió el BAFTA Fellowship, el máximo honor de la academia británica.
+
+## Lo que viene
+
+Los BAFTA suelen leerse como termómetro de la temporada de premios, que culmina en los Oscar. Con la victoria en Londres, la película de Anderson refuerza su posición entre las favoritas de la carrera. Los títulos premiados también tienden a recibir un nuevo impulso en las plataformas y en los cines, así que vale la pena estar atento para quien quiera ver a los nominados.

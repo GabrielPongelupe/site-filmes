@@ -5,12 +5,14 @@ import Link from 'next/link';
 import { useSearchParams } from 'next/navigation';
 import { useMemo, useState } from 'react';
 import type { SearchEntry } from '@/lib/content-shared';
-import { routes } from '@/lib/data';
+import { getDictionary } from '@/lib/dictionaries';
 import { formatDate } from '@/lib/format';
+import { paths, type Locale } from '@/lib/i18n';
 
 const norm = (s: string) => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
 
-export function SearchResults({ index }: { index: SearchEntry[] }) {
+export function SearchResults({ index, l }: { index: SearchEntry[]; l: Locale }) {
+  const t = getDictionary(l);
   const params = useSearchParams();
   const [q, setValue] = useState(() => params.get('q') ?? '');
   // Mantém a URL em sincronia (para compartilhar a busca) sem recarregar a página.
@@ -52,21 +54,21 @@ export function SearchResults({ index }: { index: SearchEntry[] }) {
           name="q"
           value={q}
           onChange={(ev) => setQ(ev.target.value)}
-          placeholder="Buscar filme, série, ator…"
-          aria-label="Buscar"
+          placeholder={t.header.search}
+          aria-label={t.header.searchAria}
           autoFocus
         />
       </form>
 
       {q.trim() && (
         <p className="search-count">
-          {results.length ? `${results.length} resultado${results.length > 1 ? 's' : ''} para “${q.trim()}”` : `Nada encontrado para “${q.trim()}”.`}
+          {results.length ? t.search.count(results.length, q.trim()) : t.search.none(q.trim())}
         </p>
       )}
 
       <div>
         {results.map((e) => (
-          <Link key={e.slug} href={routes.noticia(e.slug)} className="feed-item">
+          <Link key={e.slug} href={paths(l).noticia(e.slug)} className="feed-item">
             <div className="feed-item__img media placeholder placeholder--sm">
               <img src={e.image} alt="" loading="lazy" referrerPolicy="no-referrer" />
             </div>
@@ -74,7 +76,7 @@ export function SearchResults({ index }: { index: SearchEntry[] }) {
               <span className="kicker">{e.kicker}</span>
               <h3>{e.title}</h3>
               <p>{e.dek}</p>
-              <span className="meta">{formatDate(e.date)}</span>
+              <span className="meta">{formatDate(e.date, l)}</span>
             </div>
           </Link>
         ))}

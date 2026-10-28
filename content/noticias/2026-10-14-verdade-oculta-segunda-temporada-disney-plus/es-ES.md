@@ -1,0 +1,24 @@
+---
+title: "Verdade Oculta vuelve a Disney+ con Ethan Hawke y Tommy Lee Jones en la segunda temporada"
+dek: "La serie de misterio neo-noir ambientada en Tulsa estrenó nuevos episodios el 14 de octubre, con lanzamientos semanales."
+imageAlt: "Ethan Hawke en una imagen del tráiler de la segunda temporada de The Lowdown, en Brasil Verdade Oculta"
+videoTitle: "The Lowdown | Tráiler oficial de la 2.ª temporada"
+---
+
+La segunda temporada de **Verdade Oculta** (*The Lowdown*, en el original) se estrenó en Disney+ este miércoles, 14 de octubre, y comparte la atención de la semana con VisionQuest. La serie de FX sigue a Lee Raybon, personaje de Ethan Hawke, un periodista independiente de Tulsa que investiga la corrupción local y situaciones peligrosas en la ciudad, con un tono de misterio neo-noir.
+
+## Cómo serán los episodios
+
+Los dos primeros capítulos se liberaron en el estreno, y los demás llegan semanalmente, con nuevos episodios previstos para los días 21 y 28 de octubre, según la programación difundida por medios brasileños. Quien quiera evitar spoilers tiene que estar atento, porque la serie suele generar comentarios en las redes cada semana.
+
+## Reparto
+
+Ethan Hawke sigue como protagonista, y Betty Gilpin regresa al elenco. La gran novedad es la presencia de Tommy Lee Jones, que se suma a la serie en la segunda temporada, reuniendo al actor con Hawke en escena.
+
+## Por qué vale la pena
+
+La primera temporada llamó la atención por el clima de investigación y por el retrato de una ciudad estadounidense llena de secretos, con un protagonista que aun así se involucra personalmente en los casos. El tráiler de la nueva etapa mantiene esa línea y promete casos más duros.
+
+Para el público brasileño, la serie está en el catálogo de Disney+, donde las producciones de FX tienen un espacio consolidado. La primera temporada sigue disponible para quienes aún no la conocen y quieren ponerse al día antes de seguir los nuevos episodios.
+
+Si te gustan las narrativas de periodismo de investigación con humor seco, Verdade Oculta es una de las opciones más interesantes del servicio este mes, junto con los estrenos de terror de Halloween.

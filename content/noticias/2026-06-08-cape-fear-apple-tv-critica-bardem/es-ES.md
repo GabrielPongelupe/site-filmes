@@ -1,0 +1,26 @@
+---
+title: "Cape Fear en Apple TV: los críticos elogian a Javier Bardem, pero señalan el exceso de episodios"
+dek: "La serie de Nick Antosca con Amy Adams y Patrick Wilson tiene un 78 % de aprobación en Rotten Tomatoes y opiniones divididas sobre el ritmo."
+imageAlt: "Escena del tráiler oficial de Cape Fear, serie de Apple TV"
+videoTitle: "Cape Fear - Tráiler oficial"
+---
+
+*Cape Fear* (*Cabo do Medo* en Brasil), nueva adaptación del clásico sobre un exconvicto que persigue a la familia del abogado que lo puso tras las rejas, llegó a Apple TV a principios de junio y ya cuenta con la repercusión de la crítica internacional. El balance son elogios para Javier Bardem y reservas sobre la energía de la historia.
+
+## Lo que dice la crítica
+
+La serie tiene diez episodios y fue desarrollada por Nick Antosca, conocido por *The Act*. Bardem interpreta a Max Cady, Amy Adams a Anna Bowden y Patrick Wilson a Tom Bowden, la pareja de abogados en el centro de la persecución.
+
+En Rotten Tomatoes, la producción tiene un 78 % de aprobación, y las notas sobre el agregador destacan un detalle curioso: la cifra supera la de la película de Martin Scorsese de 1991 en el mismo sitio. El consenso describe la serie como un thriller elevado por el carisma "maníaco" del actor español.
+
+TVLine fue más dura y le dio una nota C+. Para el sitio, Bardem ofrece una actuación hipnótica y casi animal, capaz de sostener la serie cuando pierde ritmo. El problema, según la crítica, está en estirar la trama por tantos capítulos: la historia pierde tracción y depende de decisiones cuestionables de los personajes. Adams, según el mismo texto, tiene poco que hacer más allá de preocuparse por el acento sureño, mientras que la fotografía y la banda sonora sombría reciben elogios.
+
+## Resumen de la recepción
+
+- **Punto alto:** la actuación de Javier Bardem como Max Cady.
+- **Punto débil:** el ritmo, con diez episodios para una historia que el cine contó en dos horas.
+- **Tono:** violento y exagerado, con una trama que varios críticos califican de folletinesca.
+
+## Dónde verla
+
+En Brasil, la serie está en el catálogo de Apple TV, que también puede contratarse como canal adicional en Prime Video. Como la crítica está dividida, conviene ver el tráiler y decidir: quien disfruta de thrillers de persecución con un villano magnético probablemente se divierta, mientras que quien prefiere una narrativa ajustada quizás encuentre el recorrido demasiado largo.

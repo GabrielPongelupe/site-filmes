@@ -1,0 +1,26 @@
+---
+title: "The Paper vuelve a HBO Max con Domhnall Gleeson y la redacción en busca de una gran causa"
+dek: "La segunda temporada del spin-off de The Office llegó a Brasil el 15 de octubre, más de un mes después de su estreno en Estados Unidos."
+imageAlt: "Redacción del periódico Toledo Truth Teller en una imagen del tráiler de la segunda temporada de The Paper"
+videoTitle: "The Paper | Tráiler oficial de HBO Max"
+---
+
+La segunda temporada de **The Paper**, derivada de *The Office*, llegó a HBO Max en Brasil el 15 de octubre. La serie, en formato de falso documental, ya se había estrenado en Peacock, en Estados Unidos, el 9 de septiembre, así que el público brasileño recibe los episodios con algo más de un mes de retraso.
+
+## Qué pasa en esta temporada
+
+En esta nueva etapa, el equipo del diario llega en buen momento: tras arrasar con los premios regionales de periodismo de Ohio, el editor Ned, interpretado por Domhnall Gleeson, busca una gran causa que investigar. Según la sinopsis difundida por la plataforma, decide investigar un club privado, mientras la redacción lidia con las nuevas expectativas tras el reconocimiento. El grupo, que empezó como un equipo improvisado, también va madurando como reporteros a lo largo de los episodios.
+
+## Reparto
+
+Domhnall Gleeson encabeza el elenco, y Sabrina Impacciatore también vuelve a la redacción, según la información de los tráileres. El humor sigue el estilo de *The Office*, con personajes torpes y cámaras que registran la vida cotidiana de un periódico pequeño que intenta sobrevivir.
+
+## Renovación anticipada
+
+Peacock renovó la serie para una segunda temporada poco antes del estreno de la primera, dato que se destacó en reportajes sobre la producción. Para los fans de las comedias de oficina, esa continuidad se vio como una señal de que la franquicia encontró un derivado capaz de sostenerse.
+
+## Dónde verla
+
+La serie está en el catálogo de HBO Max, que organizó la agenda de octubre con títulos como *War*, *The Torment* y otros estrenos. Quien no vio la primera temporada puede empezar por ella antes de seguir con la nueva.
+
+The Paper es una opción liviana para quien busca humor junto a las producciones más pesadas de Halloween que dominan las plataformas este mes.

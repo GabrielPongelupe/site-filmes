@@ -1,0 +1,30 @@
+---
+title: "Where's Wanda? estrena segunda temporada en Apple TV con episodios semanales hasta diciembre"
+dek: "La comedia negra alemana inició su nueva fase el 21 de octubre, con un episodio por semana hasta el 9 de diciembre."
+imageAlt: "Imagen del tráiler de la segunda temporada de Where's Wanda?, de Apple TV"
+videoTitle: "Where's Wanda? | Tráiler oficial de la 2.ª temporada"
+---
+
+Apple TV estrenó el miércoles 21 de octubre el primer episodio de la segunda temporada de **Where's Wanda?** (*Onde Está a Wanda?*), una comedia negra en alemán. La producción vuelve con ocho episodios y adopta el estreno semanal: un capítulo nuevo cada miércoles, hasta el 9 de diciembre de 2026.
+
+## Quiénes están en el reparto
+
+La nueva temporada reúne a:
+
+- Heike Makatsch, nominada al Emmy Internacional y conocida por *Love Actually*.
+- Axel Stein.
+- Lea Drinda.
+- Leo Simon.
+- Nikeata Thompson.
+
+El tráiler de la segunda fase se publicó en septiembre, cuando la plataforma anunció la fecha de estreno. La renovación para una segunda temporada había sido anunciada por Apple en febrero del año pasado, en una época en que la serie se describía como una comedia negra elogiada.
+
+## Por qué llama la atención
+
+Las producciones no anglófonas han ganado espacio en el catálogo de Apple TV, y esta es una de las apuestas europeas del servicio. En Brasil, la serie está disponible con subtítulos, y el tráiler también tuvo una versión publicada en el canal brasileño de la empresa. La estructura semanal ayuda a mantener la conversación en las redes durante más tiempo que un lanzamiento en bloque.
+
+## Otras novedades del mes en Apple TV
+
+Octubre trae también *Small Prophets*, una comedia de la BBC con Mackenzie Crook que la plataforma compró y ya renovó para una segunda temporada, y el drama *Tenzing*, que llegó al servicio el 16 de octubre. A finales de mes, la plataforma estrena *Nocturne*, una serie de suspenso policiaco, el 30 de octubre.
+
+Quien disfrute del humor ácido y de las series europeas encontrará en *Where's Wanda?* una opción distinta a lo que suele dominar los rankings.

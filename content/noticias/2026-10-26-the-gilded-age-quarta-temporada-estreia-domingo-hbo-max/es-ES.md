@@ -1,0 +1,25 @@
+---
+title: "The Gilded Age: la 4.ª temporada se estrena el domingo (1) con ocho episodios semanales en HBO"
+dek: "La serie de época de Julian Fellowes llega a finales de octubre, con un tráiler publicado el 13 de octubre y episodios nuevos cada semana hasta el 20 de diciembre."
+titles: ["The Gilded Age"]
+imageAlt: "Escena del tráiler oficial de la 4.ª temporada de The Gilded Age"
+videoTitle: "The Gilded Age, temporada 4 | Tráiler oficial | HBO Max"
+---
+
+La cuarta temporada de **The Gilded Age** se estrena este domingo, 1 de noviembre, a las 21 h en la hora de la costa este de Estados Unidos, por HBO. Los episodios también estarán disponibles en HBO Max.
+
+## Calendario
+
+La temporada tiene ocho episodios, que saldrán semanalmente. El último está previsto para el 20 de diciembre, lo que mantiene la serie en emisión durante buena parte de las fiestas de fin de año. Quien prefiera maratonearla tendrá que esperar a que termine.
+
+## Qué muestra el tráiler
+
+El tráiler oficial se publicó el 13 de octubre. Según la prensa estadounidense, el material sugiere una disputa de poder en la alta sociedad neoyorquina y un momento delicado en el matrimonio de George y Bertha Russell, interpretados por Morgan Spector y Carrie Coon. Los medios que cubrieron el video señalan que la propuesta gira en torno al ascenso de la familia Russell a la cima de la sociedad.
+
+## Para quien llega ahora
+
+La serie, creada por Julian Fellowes, el mismo de *Downton Abbey*, sigue a familias ricas y tradicionales que disputan espacio con la nueva élite industrial en la Nueva York del siglo XIX. Quien quiera ponerse al día antes del domingo puede consultar el catálogo de HBO Max en Brasil.
+
+## Consejo para la semana
+
+Si el objetivo es llegar a tiempo, la cuenta es sencilla: quedan cinco días. Según el calendario divulgado, los ocho episodios saldrán en semanas seguidas, del 1 de noviembre al 20 de diciembre, sin pausas previstas en medio.

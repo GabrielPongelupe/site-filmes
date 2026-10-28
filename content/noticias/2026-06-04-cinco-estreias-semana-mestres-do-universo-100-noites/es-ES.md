@@ -1,0 +1,32 @@
+---
+title: "Masters of the Universe y otros cuatro estrenos del 4 de junio en los cines brasileños"
+dek: "La semana reúne a He-Man en acción real, una fantasía romántica con Emma Corrin, un drama español premiado y una animación 100 % brasileña."
+imageAlt: "Escena del tráiler oficial de Masters of the Universe"
+videoTitle: "Tráiler oficial"
+---
+
+El jueves (4) abre junio con una lista variada. El nombre más grande es *Masters of the Universe*, pero hay opciones para quien prefiere el romance, el drama de época o la animación brasileña.
+
+## Masters of the Universe
+
+Dirigida por Travis Knight, la película lleva a la pantalla grande el clásico dibujo animado de Mattel. Nicholas Galitzine interpreta al príncipe Adam, que debe recuperar una espada mítica para convertirse en He-Man y proteger Eternia del villano Esqueleto, interpretado por Jared Leto. Camila Mendes (Teela), Alison Brie (Maligna) e Idris Elba (Duncan) completan el reparto principal. Según la prensa, Galitzine siguió una rutina intensa de musculación, de unas tres horas diarias, para el papel.
+
+## 100 Noches de Deseo
+
+Dirigida y escrita por Julia Jackman, es una fantasía romántica con Emma Corrin, Nicholas Galitzine, Maika Monroe y Charli xcx. En un mundo alternativo gobernado por un déspota, un matrimonio desdichado se ve sacudido por la llegada de un huésped encantador.
+
+## 8 Décadas de Amor
+
+El español Julio Medem firma el drama sobre dos personas nacidas el mismo día, el 14 de abril de 1931, que se reencuentran a lo largo de décadas turbulentas de la historia de España. Javier Rey, Ana Rujas y Álvaro Morte integran el reparto. La película obtuvo el Premio del Público en el Festival de Málaga.
+
+## Cordélicos: El Origen del Cabra da Peste
+
+Animación brasileña dirigida por Alê McHaddo, con voces de Bruno Garcia, Tadeu Mello y Marcelo Mansfield. La trama sigue a aventureros que roban los planos de una máquina del tiempo y son perseguidos a través de diferentes épocas, en una producción que apuesta por la cultura nordestina.
+
+## Os Peludos 2
+
+Animación dirigida por Denis Chernov sobre un joven Finn, criatura que cuida las casas de los humanos, y una adolescente que resuelven misterios en la ciudad.
+
+## Antes de ir
+
+*Masters of the Universe* se estrenó en Estados Unidos al día siguiente, por Amazon MGM Studios. La recepción en la taquilla estadounidense será tema de cobertura de Spoilado en los próximos días.

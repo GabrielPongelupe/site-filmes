@@ -1,0 +1,36 @@
+---
+title: "La 50.ª Mostra de São Paulo presenta su programación con *Fjord*, *The Social Network 2* y la brasileña *Feito Pipa*"
+dek: "El festival va del 15 al 29 de octubre, con 391 títulos en la lista completa, apertura con James Gray y el candidato de Brasil al Oscar a mejor película internacional."
+imageAlt: "Escena del tráiler oficial de Feito Pipa, película de Allan Deberton"
+---
+
+La Mostra Internacional de Cine de São Paulo llega a su 50.ª edición con una programación que combina los títulos más comentados del circuito de festivales con un bloque fuerte de producciones brasileñas. El evento se realiza del 15 al 29 de octubre, y la lista completa, dada a conocer el día 9, suma 391 títulos entre largometrajes, cortometrajes y series. En el anuncio inicial, hecho el 3 de octubre, la organización hablaba de 380 títulos de más de 90 países, distribuidos en 57 salas de la capital paulista.
+
+## Apertura y destacados
+
+La función para invitados, el 14 de octubre, proyecta *Paper Tiger*, de James Gray, que se estrenó en el Festival de Cannes y contará con la presencia del director. Esa misma noche se presenta el cortometraje *Sul de Teerã*, nuevo trabajo de Kleber Mendonça Filho sobre el cineasta iraní Jafar Panahi.
+
+Entre los títulos que más llaman la atención están:
+
+- *Fjord*, de Cristian Mungiu, ganador de la Palma de Oro en Cannes;
+- *Mulher Desconhecida*, de May el-Toukhy, León de Oro en Venecia;
+- *A Terra do Meu Pai*, de Pawel Pawlikowski, premiado en Cannes por la dirección;
+- *The Social Network 2* (*O Outro Lado das Redes*), de Aaron Sorkin, tratada como una especie de secuela de *La red social*;
+- *Ray Gunn*, animación para adultos dirigida por Brad Bird;
+- *I Love Boosters*, de Boots Riley, quien viene a São Paulo para presentar la película e integrar el jurado.
+
+## Cine brasileño
+
+Brasil tiene un peso importante en la selección. *Feito Pipa*, de Allan Deberton, es el representante del país en la disputa por el Oscar a mejor película internacional, y también está en la programación. La Mostra además reserva una sección dedicada al cine nacional, con títulos como *100 Dias*, de Carlos Saldanha, y *A Extraordinária Vida de Vera Valdez*, de Fabio Meira.
+
+## Cuánto cuesta
+
+La venta de pases permanentes y paquetes comenzó el 10 de octubre, en el sitio oficial. Los valores:
+
+- Pase permanente completo: R$ 640, válido para todos los días y horarios;
+- Pase permanente especial: R$ 160, para sesiones de lunes a viernes hasta las 17:55;
+- Paquete de 40 entradas: R$ 440; paquete de 20 entradas: R$ 270;
+- Entrada individual, de lunes a jueves: R$ 26 (general) y R$ 13 (medio boleto);
+- Entrada individual, de viernes a domingo: R$ 32 (general) y R$ 16 (medio boleto).
+
+Las entradas individuales se ponen a la venta hasta cuatro días antes de cada sesión, y la cancelación se permite hasta cuatro horas antes del horario marcado. Quien tenga pase o paquete puede cambiar su función en el sitio hasta cinco días antes. Como la cartelera es grande y varias sesiones suelen agotarse, conviene armar la agenda con anticipación.

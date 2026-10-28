@@ -28,7 +28,7 @@ conectado ao projeto. O código lê as variáveis `KV_REST_API_URL` e `KV_REST_A
    **Settings → Environment Variables**, nos ambientes Production e Preview. Espere eu dizer "feito".
 5. Faça um **Redeploy** do último deploy de produção (Deployments → último deploy de Production → ⋯ → Redeploy),
    para o site carregar as variáveis novas. Espere terminar.
-6. Teste a inscrição: abra `https://<domínio de produção>/pt-br/newsletter`, inscreva o e-mail
+6. Teste a inscrição: abra `https://www.spoilado.com/pt-br/newsletter`, inscreva o e-mail
    `teste+spoilado@exemplo.com` e veja se aparece a mensagem de sucesso ("Pronto! Você está inscrito…").
    Só esse e-mail de teste — não use nenhum e-mail meu ou de outra pessoa.
 

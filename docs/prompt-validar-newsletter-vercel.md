@@ -58,14 +58,14 @@ Use o domínio de produção. **Use apenas o e-mail de teste `teste+spoilado@exe
 2. Inscreva o **mesmo** e-mail de novo. Esperado: mensagem de "já inscrito" (resposta 200, `alreadySubscribed: true`).
 3. Tente um e-mail inválido (`abc`). Esperado: mensagem de e-mail inválido.
 4. Abra o DevTools (Network) e confirme o status de cada `POST /api/newsletter` (201, 200, 400).
-5. Abra `https://<domínio>/api/newsletter` no navegador (GET sem token). Esperado: `401 unauthorized`. Se vier `404`, a rota não está no deploy.
+5. Abra `https://www.spoilado.com/api/newsletter` no navegador (GET sem token). Esperado: `401 unauthorized`. Se vier `404`, a rota não está no deploy.
 6. Se qualquer `POST` der `503`: variáveis do Redis ausentes no ambiente/deploy. Se der `502`: veja **Logs** do deploy (Observability → Logs, filtre por `/api/newsletter`) e me diga o erro.
 
 ### 6. Validar a listagem (parte minha)
-Você não deve digitar nem ver o `NEWSLETTER_ADMIN_TOKEN`. **Me instrua** a rodar no meu terminal, substituindo `SEU-SITE` e `SEU_TOKEN`:
+Você não deve digitar nem ver o `NEWSLETTER_ADMIN_TOKEN`. **Me instrua** a rodar no meu terminal, substituindo `SEU_TOKEN`:
 
 ```bash
-curl https://SEU-SITE/api/newsletter -H "Authorization: Bearer SEU_TOKEN"
+curl https://www.spoilado.com/api/newsletter -H "Authorization: Bearer SEU_TOKEN"
 ```
 
 Esperado: JSON com `ok: true`, `total` e o e-mail de teste na lista. Se vier `401`, o token digitado difere do da Vercel

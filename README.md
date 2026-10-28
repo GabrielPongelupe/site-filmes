@@ -37,11 +37,11 @@ Rotas:
 
 ```bash
 # inscrever (é o que o formulário faz)
-curl -X POST https://SEU-SITE/api/newsletter -H 'content-type: application/json' -d '{"email":"fulano@exemplo.com","locale":"pt-br"}'
+curl -X POST https://www.spoilado.com/api/newsletter -H 'content-type: application/json' -d '{"email":"fulano@exemplo.com","locale":"pt-br"}'
 
 # listar inscritos (JSON) — exige a senha
-curl https://SEU-SITE/api/newsletter -H "Authorization: Bearer $NEWSLETTER_ADMIN_TOKEN"
+curl https://www.spoilado.com/api/newsletter -H "Authorization: Bearer $NEWSLETTER_ADMIN_TOKEN"
 
 # baixar em CSV
-curl "https://SEU-SITE/api/newsletter?formato=csv" -H "Authorization: Bearer $NEWSLETTER_ADMIN_TOKEN" -o inscritos.csv
+curl "https://www.spoilado.com/api/newsletter?formato=csv" -H "Authorization: Bearer $NEWSLETTER_ADMIN_TOKEN" -o inscritos.csv
 ```

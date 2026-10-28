@@ -1195,6 +1195,31 @@ a:hover .hover-accent { color: var(--accent); }
 .newsletter-form__msg.is-error { color: var(--down); }
 .newsletter-form__consent { margin: 0; font-size: 13px !important; color: var(--muted) !important; }
 
+/* ---------- página da newsletter ---------- */
+
+.nl-hero { padding-top: 64px; padding-bottom: 40px; display: flex; flex-direction: column; gap: 18px; max-width: 820px; }
+.nl-hero h1 { margin: 0; font-size: 88px; line-height: .92; }
+.nl-hero__lead { margin: 0; font-size: 19px; line-height: 1.55; color: var(--text-dim); max-width: 620px; }
+.nl-hero__form {
+  margin-top: 8px;
+  padding: 24px;
+  max-width: 620px;
+  background: var(--surface);
+  border: 1px solid var(--line-strong);
+  border-top: 3px solid var(--accent);
+  border-radius: 14px;
+}
+.nl-hero__form .newsletter-form { margin-top: 0; max-width: none; }
+.nl-hero__proof { margin: 12px 0 0; font-size: 14px; font-weight: 600; color: var(--up); }
+
+.nl-benefits { padding-top: 24px; padding-bottom: 56px; border-top: 1px solid var(--line); }
+.nl-benefits__title { margin: 0 0 24px; font-family: var(--font-display); font-size: 40px; text-transform: uppercase; letter-spacing: .01em; }
+.nl-benefits__grid { list-style: none; margin: 0; padding: 0; display: grid; grid-template-columns: repeat(2, 1fr); gap: 16px; }
+.nl-benefit { padding: 22px; background: var(--surface); border: 1px solid var(--line); border-radius: 12px; }
+.nl-benefit__num { font-family: var(--font-mono); font-size: 13px; color: var(--accent); }
+.nl-benefit h3 { margin: 8px 0 6px; font-size: 19px; line-height: 1.25; }
+.nl-benefit p { margin: 0; font-size: 15px; line-height: 1.55; color: var(--muted); }
+
 /* ============================================================
    Responsivo — o protótipo é desktop (1240px+); abaixo disso
    as grades colapsam mantendo a mesma linguagem visual.
@@ -1303,4 +1328,13 @@ a:hover .hover-accent { color: var(--accent); }
   .estreia__dist { margin-left: 0; flex-basis: 100%; }
 
   .site-footer__grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+@media (max-width: 1100px) { .nl-hero h1 { font-size: 64px; } }
+@media (max-width: 720px) {
+  .nl-hero { padding-top: 40px; }
+  .nl-hero h1 { font-size: 44px; }
+  .nl-hero__lead { font-size: 17px; }
+  .nl-hero__form { padding: 18px; }
+  .nl-benefits__grid { grid-template-columns: 1fr; }
 }

@@ -15,11 +15,27 @@ export default async function NewsletterPage({ params }: PageProps<'/[locale]/ne
   const t = getDictionary(l).newsletter;
   return (
     <main className="container">
-      <section className="generic">
+      <section className="nl-hero">
         <span className="kicker">{t.kicker}</span>
-        <h1 className="display">{t.title}</h1>
-        <p>{t.intro}</p>
-        <NewsletterForm l={l} />
+        <h1 className="display">{t.headline}</h1>
+        <p className="nl-hero__lead">{t.intro}</p>
+        <div className="nl-hero__form">
+          <NewsletterForm l={l} />
+          <p className="nl-hero__proof">{t.proof}</p>
+        </div>
+      </section>
+
+      <section className="nl-benefits" aria-labelledby="nl-benefits-title">
+        <h2 id="nl-benefits-title" className="nl-benefits__title">{t.benefitsTitle}</h2>
+        <ul className="nl-benefits__grid">
+          {t.benefits.map((b, i) => (
+            <li key={b.title} className="nl-benefit">
+              <span className="nl-benefit__num">{String(i + 1).padStart(2, '0')}</span>
+              <h3>{b.title}</h3>
+              <p>{b.text}</p>
+            </li>
+          ))}
+        </ul>
       </section>
     </main>
   );
